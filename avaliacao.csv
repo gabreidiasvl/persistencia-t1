@@ -1,0 +1,9 @@
+id,nome_usuario,titulo_midia,tipo_midia,estrelas,comentario,deleted
+1,Alice,Parasita,Filme,5,Uma obra-prima! Chocante e brilhante.,False
+2,Bruno,Parasita,Filme,5,"Melhor filme do ano, sem dúvidas.",False
+3,Bruno,Breaking Bad,Série,5,A melhor série que já assisti.,False
+4,Carla,Breaking Bad,Série,4,"O final é um pouco lento, mas a jornada vale a pena.",False
+5,Alice,Attack on Titan,Anime,5,Insano! A história é complexa e os plot twists são incríveis.,False
+6,Davi,A Viagem de Chihiro,Filme,5,Animação perfeita do Studio Ghibli.,False
+7,Carla,Attack on Titan,Anime,5,Uma animação de altíssimo nível.,False
+8,Daniel Jaco,Bufo,Filme,5,Bufante,False
