@@ -8,7 +8,6 @@ class MiniDB:
         self.entity_name = entity_name
         self.csv_file = f"{entity_name}.csv"
         self.seq_file = f"{entity_name}.seq"
-        # O cabeçalho agora define a estrutura de uma avaliação completa
         self.header = ['id', 'nome_usuario', 'titulo_midia', 'tipo_midia', 'estrelas', 'comentario', 'deleted']
         self._initialize_db()
 
@@ -68,13 +67,11 @@ class MiniDB:
                     valid_records_count += 1
         return records
     
-    # Adicionamos uma função de busca para filtrar por título
     def search_by_title(self, titulo: str) -> List[Dict]:
         records = []
         with open(self.csv_file, 'r', newline='', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                # Busca case-insensitive
                 if titulo.lower() in row['titulo_midia'].lower() and row.get('deleted', 'false').lower() != 'true':
                     records.append(row)
         return records
@@ -94,7 +91,6 @@ class MiniDB:
             for row in reader:
                 if int(row['id']) == record_id and row.get('deleted', 'false').lower() != 'true':
                     found = True
-                    # Atualiza apenas os campos permitidos
                     row['estrelas'] = data_update.get('estrelas', row['estrelas'])
                     row['comentario'] = data_update.get('comentario', row['comentario'])
                     updated_record = row
@@ -141,3 +137,22 @@ class MiniDB:
         except FileNotFoundError:
             return 0
         return count
+    def vacuum(self) -> None:
+
+        temp_file = f"{self.csv_file}.tmp"
+        try:
+            with open(self.csv_file, 'r', newline='', encoding='utf-8') as infile, \
+                 open(temp_file, 'w', newline='', encoding='utf-8') as outfile:
+                
+                reader = csv.DictReader(infile)
+                writer = csv.DictWriter(outfile, fieldnames=self.header)
+                writer.writeheader()
+
+                for row in reader:
+                    if row.get('deleted', 'false').lower() != 'true':
+                        writer.writerow(row)
+            
+            shutil.move(temp_file, self.csv_file)
+        except FileNotFoundError:
+            if os.path.exists(temp_file):
+                os.remove(temp_file)

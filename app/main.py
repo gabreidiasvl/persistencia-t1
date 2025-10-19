@@ -1,16 +1,19 @@
 from fastapi import FastAPI, HTTPException, Query, Response
-from fastapi.responses import HTMLResponse # Precisamos disso para a página customizada
+from fastapi.responses import HTMLResponse 
 from typing import List
 from app.database import MiniDB
 from app.models import Avaliacao, AvaliacaoCreate, AvaliacaoUpdate
 from fastapi.responses import HTMLResponse, RedirectResponse
+import zipfile
+import io
+import hashlib
+from fastapi.responses import StreamingResponse
 
-# 1. DESATIVAMOS A PÁGINA DE DOCUMENTAÇÃO PADRÃO
 app = FastAPI(
     title="API de Avaliações de Mídias",
     description="Uma API focada em criar e gerenciar avaliações de mídias.",
     version="3.0.0",
-    docs_url=None, # Desativamos o /docs padrão para criar o nosso
+    docs_url=None, 
     redoc_url=None
 )
 
@@ -21,7 +24,6 @@ async def root():
     Redireciona a rota raiz ("/") para a página de documentação ("/docs").
     """
     return RedirectResponse(url="/docs")
-# 2. CRIAMOS NOSSA PRÓPRIA PÁGINA DE DOCUMENTAÇÃO CUSTOMIZADA
 @app.get("/docs", response_class=HTMLResponse, include_in_schema=False)
 async def custom_swagger_ui_html():
     return HTMLResponse(content="""
@@ -60,12 +62,9 @@ async def custom_swagger_ui_html():
     </html>
     """)
 
-# --- Endpoints da API com as TAGS em Português ---
-
 @app.post("/avaliacoes/", response_model=Avaliacao, status_code=201, summary="Criar uma nova avaliação", tags=["1. Criar (POST)"])
 def create_avaliacao(avaliacao: AvaliacaoCreate):
     return db.insert(avaliacao.dict())
-
 @app.get("/avaliacoes/", response_model=List[Avaliacao], summary="Listar todas as avaliações", tags=["2. Ler (GET)"])
 def get_avaliacoes(page: int = 1, page_size: int = 10):
     return db.get_all(page=page, page_size=page_size)
@@ -85,6 +84,7 @@ def get_avaliacao(avaliacao_id: int):
 def count_avaliacoes():
     return {"total_avaliacoes": db.count()}
 
+
 @app.put("/avaliacoes/{avaliacao_id}", response_model=Avaliacao, summary="Atualizar uma avaliação", tags=["3. Atualizar (PUT)"])
 def update_avaliacao(avaliacao_id: int, avaliacao_update: AvaliacaoUpdate):
     updated = db.update(avaliacao_id, avaliacao_update.dict())
@@ -98,3 +98,29 @@ def delete_avaliacao(avaliacao_id: int):
     if not success:
         raise HTTPException(status_code=404, detail="Avaliação não encontrada para remoção")
     return Response(status_code=204)
+@app.post("/manutencao/vacuum", status_code=200, summary="Limpar registros deletados", tags=["5. Manutenção"])
+def vacuum_db():
+    db.vacuum()
+    return {"message": "Operação de vacuum concluída com sucesso."}
+
+@app.get("/exportar/avaliacoes.zip", summary="Exportar dados como CSV compactado", tags=["5. Manutenção"])
+def export_avaliacoes_zip():
+    zip_buffer = io.BytesIO()
+
+    with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zip_file:
+        zip_file.write(db.csv_file, arcname="avaliacoes.csv")
+
+    return StreamingResponse(
+        iter([zip_buffer.getvalue()]),
+        media_type="application/x-zip-compressed",
+        headers={"Content-Disposition": f"attachment; filename=avaliacoes_export.zip"}
+    )
+@app.post("/utilitarios/hash", summary="Gerar hash de um dado", tags=["6. Utilitários"])
+def generate_hash(data: str = Query(..., description="O dado a ser processado"), 
+                  algorithm: str = Query("sha256", enum=["md5", "sha1", "sha256"])):
+    """
+    Gera o hash de uma string de dados usando o algoritmo especificado.
+    """
+    hasher = hashlib.new(algorithm)
+    hasher.update(data.encode('utf-8'))
+    return {"original_data": data, "algorithm": algorithm, "hashed_value": hasher.hexdigest()}
