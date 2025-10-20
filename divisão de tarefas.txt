@@ -1,0 +1,58 @@
+Divisão de Tarefas - Trabalho Persistência
+
+Equipe (Tripla)
+- Membro 1: Gabriel Dias Vale
+- Membro 2: Daniel Jacó Pereira dos Santos
+- Membro 3: Evely Paz da Silva
+
+Tarefa 1: Backend Core - Banco de Dados e Modelagem de Dados
+- Responsável: Daniel Jacó
+- Descrição das Atividades:
+  - Implementação da Classe MiniDB (database.py):
+    - Desenvolver a classe MiniDB para ser o único ponto de acesso e manipulação do arquivo avaliacao.csv.
+    - Implementar o controle de IDs auto-incrementais com o arquivo avaliacao.seq.
+    - Garantir que todas as operações de leitura e escrita (get, update, delete, count) sejam eficientes em memória, processando o arquivo linha a linha sem carregá-lo por completo.
+    - Implementar todas as operações CRUD: insert, get_by_id, get_all (com lógica de paginação), update e soft_delete.
+    - Desenvolver funcionalidades adicionais na classe: search_by_title (para buscas filtradas) e vacuum (para limpeza física de registros com deleção lógica).
+  - Modelagem de Dados (models.py):
+    - Definir a estrutura da entidade "Avaliação" usando Pydantic.
+    - Criar os modelos necessários para as diferentes operações da API: AvaliacaoBase, AvaliacoCreate (para criação), AvaliacaoUpdate (para atualizações) e Avaliacao (para respostas da API).
+    - Utilizar validadores do Pydantic (Field) para garantir a integridade dos dados (ex: avaliação de 1 a 5 estrelas).
+
+ Tarefa 2: API REST - Implementação dos Endpoints
+- Responsável: Gabriel Dias
+- Descrição das Atividades:
+  - Estruturação da API (app/main.py):
+    - Configurar a instância principal do FastAPI e conectá-la com a classe MiniDB.
+  - Implementação dos Endpoints Funcionais:
+    - Criar o CRUD completo para o recurso /avaliacoes/ (POST, GET, PUT, DELETE).
+    - Implementar os endpoints de listagem com paginação (GET /avaliacoes/).
+    - Desenvolver os endpoints para as funcionalidades específicas F4, F5 e F6:
+      - GET /avaliacoes/contar (Contagem).
+      - GET /exportar/avaliacoes.zip (Exportação de dados com streaming).
+      - POST /utilitarios/hash (Função de Hashing).
+    - Implementar o endpoint de busca (GET /avaliacoes/buscar/).
+    - Criar o endpoint para a operação de manutenção do banco (POST /manutencao/vacuum).
+  - Documentação e Validação:
+    - Escrever docstrings claras e informativas para cada função de endpoint, que serão usadas para gerar a descrição na documentação.
+    - Garantir que todos os endpoints usem os modelos Pydantic corretos para validação de entrada e serialização de saída (response_model).
+    - Realizar testes funcionais em todos os endpoints usando a interface do Swagger UI.
+
+
+ Tarefa 3: Front-End/UX Documentação, Dados e Estrutura do Projeto
+- Responsável: Evely Paz
+	Descrição das Atividades:
+  - Customização do Front-end da API (app/main.py):
+    - Implementar a funcionalidade de redirecionamento da rota raiz (/) para a página de documentação (/docs).
+    - Desativar a documentação padrão do FastAPI e criar um endpoint customizado @app.get("/docs") que retorna uma HTMLResponse.
+    - Configurar a aplicação para servir arquivos estáticos (imagens) através da pasta static.
+  - Organização e Usabilidade (UX):
+    - Organizar todos os endpoints da API em grupos lógicos e intuitivos (Criar, Ler, Atualizar, etc.) usando o parâmetro openapi_tags na inicialização do FastAPI.
+  - Povoamento do Banco de Dados (populate_db.py):
+    - Criar o script de povoamento para gerar 1.000 avaliações.
+    - Utilizar a biblioteca Faker para gerar dados de usuários realistas.
+    - Combinar os dados do Faker com uma lista de mídias reais para gerar avaliações coerentes e em grande volume, cumprindo os requisitos da atividade.
+  - Gerenciamento Final do Projeto:
+    - Manter o arquivo requirements.txt atualizado.
+    - Organizar a estrutura final de pastas e arquivos.
+    - Criar o arquivo README.md com as instruções completas para a execução do projeto.

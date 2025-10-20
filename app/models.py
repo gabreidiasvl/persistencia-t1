@@ -12,9 +12,8 @@ class AvaliacaoCreate(AvaliacaoBase):
     pass
 
 class AvaliacaoUpdate(BaseModel):
-    # Modelo para atualização, permite alterar apenas estrelas e comentário
     estrelas: int = Field(..., ge=1, le=5, description="Nova nota em estrelas")
-    comentario: Optional[str] = Field(None, description="Novo comentário")
+    comentario: Optional[str] = Field(None, description="Novo comentário") 
 
 class Avaliacao(AvaliacaoBase):
     id: int

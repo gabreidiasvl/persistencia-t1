@@ -102,7 +102,7 @@ def delete_avaliacao(avaliacao_id: int):
 def vacuum_db():
     db.vacuum()
     return {"message": "Operação de vacuum concluída com sucesso."}
-
+ 
 @app.get("/exportar/avaliacoes.zip", summary="Exportar dados como CSV compactado", tags=["5. Manutenção"])
 def export_avaliacoes_zip():
     zip_buffer = io.BytesIO()

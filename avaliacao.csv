@@ -1,9 +1,1001 @@
 id,nome_usuario,titulo_midia,tipo_midia,estrelas,comentario,deleted
-1,Alice,Parasita,Filme,5,Uma obra-prima! Chocante e brilhante.,False
-2,Bruno,Parasita,Filme,5,"Melhor filme do ano, sem dúvidas.",False
-3,Bruno,Breaking Bad,Série,5,A melhor série que já assisti.,False
-4,Carla,Breaking Bad,Série,4,"O final é um pouco lento, mas a jornada vale a pena.",False
-5,Alice,Attack on Titan,Anime,5,Insano! A história é complexa e os plot twists são incríveis.,False
-6,Davi,A Viagem de Chihiro,Filme,5,Animação perfeita do Studio Ghibli.,False
-7,Carla,Attack on Titan,Anime,5,Uma animação de altíssimo nível.,False
-8,Daniel Jaco,Bufo,Filme,5,Bufante,False
+1,Arthur Martins,Naruto,Anime,5,Sensacional!,False
+2,Mariah das Neves,Fullmetal Alchemist: Brotherhood,Anime,4,"Quase perfeito, vale muito a pena.",False
+3,João Miguel Caldeira,The Office,Série,3,Divertido para passar o tempo.,False
+4,Carolina das Neves,O Clone,Novela,4,Surpreendeu positivamente.,False
+5,Sophie Macedo,Senhora do Destino,Novela,5,Sensacional!,False
+6,José Miguel Jesus,O Clone,Novela,5,Sensacional!,False
+7,Srta. Emanuella da Rosa,Stranger Things,Série,4,"Quase perfeito, vale muito a pena.",False
+8,Caroline Dias,A Viagem de Chihiro,Filme,5,Top 10 da minha vida.,False
+9,Pedro Miguel Borges,Pulp Fiction,Filme,5,Top 10 da minha vida.,False
+10,Sr. Asafe Montenegro,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+11,Henry Nunes,Breaking Bad,Série,3,Tem seus altos e baixos.,False
+12,Sophie Rios,Pulp Fiction,Filme,2,Não gostei muito.,False
+13,Théo Aparecida,Naruto,Anime,5,Perfeito! Uma obra-prima.,False
+14,Francisco Nunes,Jujutsu Kaisen,Anime,4,Ótima história e personagens.,False
+15,Mariane Marques,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+16,Felipe Pires,The Office,Série,2,Não gostei muito.,False
+17,Kaique Albuquerque,Jujutsu Kaisen,Anime,2,Achei a premissa fraca.,False
+18,Fernando Brito,Matrix,Filme,3,Divertido para passar o tempo.,False
+19,Léo da Cunha,The Office,Série,4,"Muito bom, gostei bastante.",False
+20,Bruno Borges,Attack on Titan,Anime,3,Divertido para passar o tempo.,False
+21,Heloisa Cassiano,Interestelar,Filme,1,Não recomendo de jeito nenhum.,False
+22,Sra. Eloá Mendonça,Naruto,Anime,5,Sensacional!,False
+23,Vitória Fogaça,Interestelar,Filme,5,Recomendo para todo mundo!,False
+24,Catarina Costa,Demon Slayer,Anime,1,"Terrível, um dos piores que já vi.",False
+25,Benício Nascimento,Parasita,Filme,5,Sensacional!,False
+26,Allana Ribeiro,Stranger Things,Série,5,Perfeito! Uma obra-prima.,False
+27,Cecília Silveira,Parasita,Filme,3,"É ok, mas não me marcou.",False
+28,Theodoro Macedo,Death Note,Anime,2,"Esperava bem mais, foi uma decepção.",False
+29,Maria Vitória Pereira,A Origem,Filme,1,Muito ruim.,False
+30,Dra. Bella Araújo,Interestelar,Filme,2,Não gostei muito.,False
+31,Thales Correia,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+32,Luísa Cavalcante,Breaking Bad,Série,3,Tem seus altos e baixos.,False
+33,Dr. Davi Miguel Aragão,Matrix,Filme,5,Top 10 da minha vida.,False
+34,Maitê Melo,Death Note,Anime,4,Ótima história e personagens.,False
+35,Gabriela da Costa,The Office,Série,3,"É ok, mas não me marcou.",False
+36,Dra. Maysa Alves,Attack on Titan,Anime,4,Ótima história e personagens.,False
+37,Ana Sophia Albuquerque,O Clone,Novela,4,"Quase perfeito, vale muito a pena.",False
+38,Ágatha Leão,Demon Slayer,Anime,5,Recomendo para todo mundo!,False
+39,Rhavi da Costa,Senhora do Destino,Novela,4,Surpreendeu positivamente.,False
+40,Camila da Cunha,O Clone,Novela,1,"Péssimo, perdi meu tempo.",False
+41,Dra. Emanuelly Sousa,Parasita,Filme,3,"Bom, mas nada de especial.",False
+42,Dr. Emanuel Porto,A Origem,Filme,5,Recomendo para todo mundo!,False
+43,Letícia Santos,Jujutsu Kaisen,Anime,1,"Péssimo, perdi meu tempo.",False
+44,Mirella Peixoto,Vale Tudo,Novela,3,Tem seus altos e baixos.,False
+45,Esther Nascimento,Senhora do Destino,Novela,1,"Terrível, um dos piores que já vi.",False
+46,Lucas Campos,Pulp Fiction,Filme,2,Não funcionou pra mim.,False
+47,Maria Clara Garcia,Black Mirror,Série,1,"Péssimo, perdi meu tempo.",False
+48,Luiz Miguel Brito,Interestelar,Filme,2,Não gostei muito.,False
+49,Maria Laura Brito,Jujutsu Kaisen,Anime,5,Top 10 da minha vida.,False
+50,Enzo da Luz,Black Mirror,Série,2,Não funcionou pra mim.,False
+51,João Nogueira,Cidade de Deus,Filme,3,Divertido para passar o tempo.,False
+52,Sr. Rodrigo Ramos,Dark,Série,5,"Incrível, assistiria de novo.",False
+53,Diego Correia,O Clone,Novela,3,Tem seus altos e baixos.,False
+54,Fernando Lopes,The Office,Série,1,"Péssimo, perdi meu tempo.",False
+55,Eloah da Cruz,Pulp Fiction,Filme,1,Muito ruim.,False
+56,Carolina Ramos,Cidade de Deus,Filme,5,"Incrível, assistiria de novo.",False
+57,Ravy Caldeira,Batman: O Cavaleiro das Trevas,Filme,4,Ótima história e personagens.,False
+58,Nina Moura,Jujutsu Kaisen,Anime,2,Não gostei muito.,False
+59,Gael Henrique Aparecida,O Clone,Novela,2,"Esperava bem mais, foi uma decepção.",False
+60,Emanuel Sales,A Origem,Filme,1,Não recomendo de jeito nenhum.,False
+61,Ágatha Araújo,Avenida Brasil,Novela,1,"Terrível, um dos piores que já vi.",False
+62,João Gabriel da Luz,Black Mirror,Série,3,"É ok, mas não me marcou.",False
+63,Rodrigo Fonseca,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+64,Luiz Felipe da Cruz,Vale Tudo,Novela,3,"Bom, mas nada de especial.",False
+65,Lavínia Sá,Senhora do Destino,Novela,3,"É ok, mas não me marcou.",False
+66,Dra. Maria Julia Pimenta,Game of Thrones,Série,5,Sensacional!,False
+67,Mathias Santos,Death Note,Anime,5,Perfeito! Uma obra-prima.,False
+68,Leonardo Macedo,Batman: O Cavaleiro das Trevas,Filme,4,Ótima história e personagens.,False
+69,Fernanda Machado,Attack on Titan,Anime,4,"Muito bom, gostei bastante.",False
+70,Amanda Fernandes,Stranger Things,Série,2,Não gostei muito.,False
+71,Elisa Vargas,Cidade de Deus,Filme,1,Muito ruim.,False
+72,Josué Peixoto,Parasita,Filme,5,Perfeito! Uma obra-prima.,False
+73,Apollo Souza,Cidade de Deus,Filme,4,Surpreendeu positivamente.,False
+74,Sarah Moreira,O Poderoso Chefão,Filme,1,"Péssimo, perdi meu tempo.",False
+75,Benício Cassiano,Parasita,Filme,5,Recomendo para todo mundo!,False
+76,Luiz Otávio Sales,Breaking Bad,Série,4,Ótima história e personagens.,False
+77,Maria Luiza Cunha,O Senhor dos Anéis: O Retorno do Rei,Filme,5,"Incrível, assistiria de novo.",False
+78,Rafaela Vargas,Cidade de Deus,Filme,5,Sensacional!,False
+79,Gustavo Henrique Barros,The Office,Série,3,Divertido para passar o tempo.,False
+80,Henrique Marques,Death Note,Anime,2,Não funcionou pra mim.,False
+81,Dr. Otávio Costela,The Office,Série,3,"Bom, mas nada de especial.",False
+82,Laura Pastor,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+83,Gael Henrique Moraes,Fullmetal Alchemist: Brotherhood,Anime,1,Não recomendo de jeito nenhum.,False
+84,Lucca Jesus,Interestelar,Filme,2,Achei a premissa fraca.,False
+85,Alexandre da Mata,A Origem,Filme,4,"Muito bom, gostei bastante.",False
+86,Ana Luiza Farias,Dark,Série,5,Top 10 da minha vida.,False
+87,Dr. Leonardo Sampaio,Demon Slayer,Anime,1,Muito ruim.,False
+88,Manuella da Costa,Breaking Bad,Série,3,"É ok, mas não me marcou.",False
+89,Clara Casa Grande,Stranger Things,Série,1,Muito ruim.,False
+90,Cauã Borges,Fullmetal Alchemist: Brotherhood,Anime,5,Top 10 da minha vida.,False
+91,Dra. Mariah Vasconcelos,Avenida Brasil,Novela,3,Tem seus altos e baixos.,False
+92,Maria Cecília Borges,A Viagem de Chihiro,Filme,3,"É ok, mas não me marcou.",False
+93,Apollo da Rocha,Cidade de Deus,Filme,5,Recomendo para todo mundo!,False
+94,Bruna Moreira,A Viagem de Chihiro,Filme,1,Muito ruim.,False
+95,Leonardo Cirino,A Origem,Filme,4,"Quase perfeito, vale muito a pena.",False
+96,Gustavo Henrique das Neves,Interestelar,Filme,3,"Bom, mas nada de especial.",False
+97,Ravi Lucca Nogueira,Fullmetal Alchemist: Brotherhood,Anime,3,Tem seus altos e baixos.,False
+98,Aurora da Mota,Pulp Fiction,Filme,3,Divertido para passar o tempo.,False
+99,Stella Nascimento,Pulp Fiction,Filme,2,Não gostei muito.,False
+100,Sara da Cruz,Fullmetal Alchemist: Brotherhood,Anime,5,Sensacional!,False
+101,Eduarda Ferreira,Black Mirror,Série,3,Tem seus altos e baixos.,False
+102,Maria Vitória Azevedo,The Office,Série,3,"É ok, mas não me marcou.",False
+103,João Gabriel Farias,Naruto,Anime,5,Recomendo para todo mundo!,False
+104,Marina Cassiano,Vale Tudo,Novela,1,"Terrível, um dos piores que já vi.",False
+105,Ana Cecília Jesus,Avenida Brasil,Novela,3,"Bom, mas nada de especial.",False
+106,Dr. Bryan Vargas,The Office,Série,2,"Esperava bem mais, foi uma decepção.",False
+107,José Monteiro,Pulp Fiction,Filme,2,Achei a premissa fraca.,False
+108,Matteo Farias,Fullmetal Alchemist: Brotherhood,Anime,1,"Péssimo, perdi meu tempo.",False
+109,Sabrina Pastor,Interestelar,Filme,4,Surpreendeu positivamente.,False
+110,Calebe Jesus,A Viagem de Chihiro,Filme,4,"Quase perfeito, vale muito a pena.",False
+111,Dr. Raul Sales,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Muito ruim.,False
+112,Dra. Lorena Melo,Cidade de Deus,Filme,1,"Terrível, um dos piores que já vi.",False
+113,Dr. Asafe Albuquerque,Black Mirror,Série,4,Ótima história e personagens.,False
+114,Enrico Ribeiro,A Origem,Filme,1,Não recomendo de jeito nenhum.,False
+115,Maria Cecília Nascimento,The Office,Série,5,Sensacional!,False
+116,Kamilly Barros,Pulp Fiction,Filme,5,Perfeito! Uma obra-prima.,False
+117,Dr. Davi Lucas Viana,A Viagem de Chihiro,Filme,4,"Muito bom, gostei bastante.",False
+118,Dom da Costa,Vale Tudo,Novela,4,"Quase perfeito, vale muito a pena.",False
+119,Lara Gonçalves,Fullmetal Alchemist: Brotherhood,Anime,3,Divertido para passar o tempo.,False
+120,Sra. Isadora Monteiro,O Poderoso Chefão,Filme,5,Top 10 da minha vida.,False
+121,Gabriel Câmara,Attack on Titan,Anime,4,Surpreendeu positivamente.,False
+122,Luiz Gustavo Rocha,O Clone,Novela,1,"Terrível, um dos piores que já vi.",False
+123,Emanuelly Andrade,O Clone,Novela,1,Muito ruim.,False
+124,Leonardo Ramos,Fullmetal Alchemist: Brotherhood,Anime,5,Recomendo para todo mundo!,False
+125,Srta. Alana Moreira,Fullmetal Alchemist: Brotherhood,Anime,5,Recomendo para todo mundo!,False
+126,Dra. Mirella Machado,Pulp Fiction,Filme,4,"Muito bom, gostei bastante.",False
+127,Dra. Sophia Marques,Breaking Bad,Série,1,"Terrível, um dos piores que já vi.",False
+128,Nina Sampaio,Vale Tudo,Novela,3,Tem seus altos e baixos.,False
+129,Gabriela da Paz,Cidade de Deus,Filme,4,Surpreendeu positivamente.,False
+130,Dr. Dante Abreu,O Senhor dos Anéis: O Retorno do Rei,Filme,3,Divertido para passar o tempo.,False
+131,Rael Vargas,Avenida Brasil,Novela,3,"Bom, mas nada de especial.",False
+132,Josué da Costa,Batman: O Cavaleiro das Trevas,Filme,1,Não recomendo de jeito nenhum.,False
+133,Beatriz Castro,The Office,Série,1,"Terrível, um dos piores que já vi.",False
+134,Emanuella Garcia,Dark,Série,5,Perfeito! Uma obra-prima.,False
+135,Bento Lopes,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+136,Amanda Sá,Cidade de Deus,Filme,1,Muito ruim.,False
+137,Brenda Gonçalves,Batman: O Cavaleiro das Trevas,Filme,2,Não funcionou pra mim.,False
+138,Isabela Aparecida,Breaking Bad,Série,3,"É ok, mas não me marcou.",False
+139,Josué Jesus,Vale Tudo,Novela,2,Não funcionou pra mim.,False
+140,Juliana Pacheco,A Origem,Filme,4,"Muito bom, gostei bastante.",False
+141,Dr. Murilo Gonçalves,O Senhor dos Anéis: O Retorno do Rei,Filme,4,Ótima história e personagens.,False
+142,Enzo Gabriel Moura,O Clone,Novela,3,Divertido para passar o tempo.,False
+143,Davi Lucas Nascimento,Cidade de Deus,Filme,2,Não gostei muito.,False
+144,Davi Lucca Mendonça,O Poderoso Chefão,Filme,5,Perfeito! Uma obra-prima.,False
+145,Sra. Nina Novaes,Matrix,Filme,2,Achei a premissa fraca.,False
+146,Ana Júlia Siqueira,Dark,Série,4,"Quase perfeito, vale muito a pena.",False
+147,Srta. Sofia da Cruz,Senhora do Destino,Novela,1,"Péssimo, perdi meu tempo.",False
+148,Ana Clara Jesus,Cidade de Deus,Filme,4,"Muito bom, gostei bastante.",False
+149,Heloísa Sousa,Stranger Things,Série,1,"Terrível, um dos piores que já vi.",False
+150,Emanuelly Souza,The Office,Série,4,"Quase perfeito, vale muito a pena.",False
+151,Vitória Caldeira,Attack on Titan,Anime,5,Sensacional!,False
+152,Sr. José Miguel Peixoto,Batman: O Cavaleiro das Trevas,Filme,3,Tem seus altos e baixos.,False
+153,Ana Carolina Cavalcanti,Jujutsu Kaisen,Anime,1,Não recomendo de jeito nenhum.,False
+154,Ana Julia Borges,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+155,Benicio Araújo,Batman: O Cavaleiro das Trevas,Filme,4,"Quase perfeito, vale muito a pena.",False
+156,Davi Lucca Peixoto,Parasita,Filme,3,Divertido para passar o tempo.,False
+157,Srta. Lorena Peixoto,Death Note,Anime,1,Não recomendo de jeito nenhum.,False
+158,Dra. Stella Ferreira,Senhora do Destino,Novela,3,"É ok, mas não me marcou.",False
+159,Zoe Montenegro,Senhora do Destino,Novela,5,Recomendo para todo mundo!,False
+160,Luiza Fogaça,Avenida Brasil,Novela,4,Surpreendeu positivamente.,False
+161,Vitor da Cunha,Demon Slayer,Anime,5,Top 10 da minha vida.,False
+162,Luiza Cavalcante,A Origem,Filme,5,Top 10 da minha vida.,False
+163,Sra. Maya Guerra,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Perfeito! Uma obra-prima.,False
+164,Yuri Monteiro,Matrix,Filme,4,"Quase perfeito, vale muito a pena.",False
+165,Juan Borges,Dark,Série,4,"Quase perfeito, vale muito a pena.",False
+166,Maria Sophia Cardoso,Cidade de Deus,Filme,1,Muito ruim.,False
+167,Sr. João Vitor Camargo,Demon Slayer,Anime,5,Recomendo para todo mundo!,False
+168,Alexia Machado,Batman: O Cavaleiro das Trevas,Filme,4,"Quase perfeito, vale muito a pena.",False
+169,Sarah Aparecida,Fullmetal Alchemist: Brotherhood,Anime,1,"Terrível, um dos piores que já vi.",False
+170,Olivia da Rosa,Pulp Fiction,Filme,4,"Quase perfeito, vale muito a pena.",False
+171,Aurora Machado,Avenida Brasil,Novela,5,"Incrível, assistiria de novo.",False
+172,Isabella Souza,Avenida Brasil,Novela,2,Não funcionou pra mim.,False
+173,Sr. José Pedro da Costa,O Senhor dos Anéis: O Retorno do Rei,Filme,2,"Esperava bem mais, foi uma decepção.",False
+174,Emilly Farias,Stranger Things,Série,1,"Péssimo, perdi meu tempo.",False
+175,Dra. Julia Cirino,O Poderoso Chefão,Filme,2,"Esperava bem mais, foi uma decepção.",False
+176,Nicolas Costa,Avenida Brasil,Novela,3,Divertido para passar o tempo.,False
+177,Dr. Ravi Lucca da Mata,Dark,Série,4,"Quase perfeito, vale muito a pena.",False
+178,Isabel da Cunha,Naruto,Anime,1,Muito ruim.,False
+179,Maysa Albuquerque,The Office,Série,2,"Esperava bem mais, foi uma decepção.",False
+180,Sra. Camila da Mata,O Senhor dos Anéis: O Retorno do Rei,Filme,3,"É ok, mas não me marcou.",False
+181,Luan Cunha,Attack on Titan,Anime,2,Não funcionou pra mim.,False
+182,Zoe da Mota,Game of Thrones,Série,5,"Incrível, assistiria de novo.",False
+183,Dra. Juliana Novaes,Stranger Things,Série,2,Não gostei muito.,False
+184,Dr. Yago Vieira,Vale Tudo,Novela,5,Recomendo para todo mundo!,False
+185,Luan Pires,Black Mirror,Série,2,"Esperava bem mais, foi uma decepção.",False
+186,Sr. Theo Cassiano,Game of Thrones,Série,5,Recomendo para todo mundo!,False
+187,Francisco Novaes,Breaking Bad,Série,2,Achei a premissa fraca.,False
+188,Maria Júlia das Neves,Matrix,Filme,4,Ótima história e personagens.,False
+189,Júlia Fernandes,Dark,Série,4,"Muito bom, gostei bastante.",False
+190,Cecília Vieira,Pulp Fiction,Filme,2,"Esperava bem mais, foi uma decepção.",False
+191,Maria Luiza Leão,O Senhor dos Anéis: O Retorno do Rei,Filme,3,"Bom, mas nada de especial.",False
+192,Ana Aragão,A Viagem de Chihiro,Filme,2,Não gostei muito.,False
+193,Raul Nascimento,O Poderoso Chefão,Filme,4,"Quase perfeito, vale muito a pena.",False
+194,Dr. Luiz Felipe Pacheco,O Clone,Novela,3,Divertido para passar o tempo.,False
+195,Maria Luiza Novais,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+196,Caio Alves,Attack on Titan,Anime,1,Muito ruim.,False
+197,Nicole da Cunha,Game of Thrones,Série,5,Perfeito! Uma obra-prima.,False
+198,Maria Alice Fogaça,O Senhor dos Anéis: O Retorno do Rei,Filme,3,"É ok, mas não me marcou.",False
+199,Kevin Sales,Interestelar,Filme,3,Divertido para passar o tempo.,False
+200,Levi Casa Grande,Jujutsu Kaisen,Anime,4,Ótima história e personagens.,False
+201,Dr. Gael Nascimento,Cidade de Deus,Filme,5,Sensacional!,False
+202,Alexia da Mata,Batman: O Cavaleiro das Trevas,Filme,2,Não gostei muito.,False
+203,Hellena Fonseca,A Origem,Filme,3,Divertido para passar o tempo.,False
+204,Sabrina da Luz,Black Mirror,Série,1,"Terrível, um dos piores que já vi.",False
+205,Otávio Araújo,O Poderoso Chefão,Filme,3,"Bom, mas nada de especial.",False
+206,Hadassa Aparecida,Batman: O Cavaleiro das Trevas,Filme,5,Perfeito! Uma obra-prima.,False
+207,Ana Clara Albuquerque,Breaking Bad,Série,2,Não funcionou pra mim.,False
+208,Maria Luísa Machado,Interestelar,Filme,5,"Incrível, assistiria de novo.",False
+209,Dra. Milena Monteiro,O Senhor dos Anéis: O Retorno do Rei,Filme,4,Ótima história e personagens.,False
+210,Antônio Lima,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+211,Otávio Gonçalves,Demon Slayer,Anime,2,Achei a premissa fraca.,False
+212,Hadassa Silva,Stranger Things,Série,4,"Muito bom, gostei bastante.",False
+213,Sara Machado,Interestelar,Filme,1,Não recomendo de jeito nenhum.,False
+214,Juliana Oliveira,Attack on Titan,Anime,4,"Quase perfeito, vale muito a pena.",False
+215,Joaquim Sousa,Game of Thrones,Série,1,"Terrível, um dos piores que já vi.",False
+216,Rafael Camargo,Naruto,Anime,3,Divertido para passar o tempo.,False
+217,Isabela Castro,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Muito bom, gostei bastante.",False
+218,Heloísa Mendonça,Stranger Things,Série,5,Recomendo para todo mundo!,False
+219,Alexandre Rocha,Attack on Titan,Anime,3,"Bom, mas nada de especial.",False
+220,Sra. Eloá Brito,Death Note,Anime,2,Achei a premissa fraca.,False
+221,Giovanna Campos,Avenida Brasil,Novela,2,Não funcionou pra mim.,False
+222,Pedro Leão,Dark,Série,5,Perfeito! Uma obra-prima.,False
+223,Clarice Brito,Jujutsu Kaisen,Anime,3,Divertido para passar o tempo.,False
+224,Joana Dias,Demon Slayer,Anime,1,Não recomendo de jeito nenhum.,False
+225,Sra. Melissa Guerra,Breaking Bad,Série,2,Achei a premissa fraca.,False
+226,Maria Luiza Moraes,O Clone,Novela,1,"Péssimo, perdi meu tempo.",False
+227,Otto Fogaça,Batman: O Cavaleiro das Trevas,Filme,3,Divertido para passar o tempo.,False
+228,Ana Sophia Gonçalves,Vale Tudo,Novela,2,"Esperava bem mais, foi uma decepção.",False
+229,Emanuella Teixeira,Cidade de Deus,Filme,1,"Péssimo, perdi meu tempo.",False
+230,Natália Mendonça,Pulp Fiction,Filme,5,Recomendo para todo mundo!,False
+231,Matteo Almeida,Demon Slayer,Anime,5,"Incrível, assistiria de novo.",False
+232,Marcos Vinicius Farias,Jujutsu Kaisen,Anime,4,"Quase perfeito, vale muito a pena.",False
+233,Henrique Cardoso,Black Mirror,Série,1,Não recomendo de jeito nenhum.,False
+234,João Pedro Novais,The Office,Série,4,Surpreendeu positivamente.,False
+235,Isabel Vieira,A Origem,Filme,5,Recomendo para todo mundo!,False
+236,Ana Cecília Fogaça,O Clone,Novela,2,Não funcionou pra mim.,False
+237,Noah Monteiro,The Office,Série,1,Muito ruim.,False
+238,Heloisa Fonseca,Death Note,Anime,5,"Incrível, assistiria de novo.",False
+239,João Miguel Vieira,Matrix,Filme,2,"Esperava bem mais, foi uma decepção.",False
+240,Josué Carvalho,Dark,Série,2,"Esperava bem mais, foi uma decepção.",False
+241,Gabrielly Garcia,A Origem,Filme,4,"Quase perfeito, vale muito a pena.",False
+242,Nina Rezende,Black Mirror,Série,1,Muito ruim.,False
+243,Luigi Câmara,Senhora do Destino,Novela,1,Não recomendo de jeito nenhum.,False
+244,Mariane Viana,Interestelar,Filme,5,Perfeito! Uma obra-prima.,False
+245,Rodrigo Marques,Jujutsu Kaisen,Anime,3,"É ok, mas não me marcou.",False
+246,Lunna Cunha,Death Note,Anime,5,Top 10 da minha vida.,False
+247,João Vitor Duarte,Batman: O Cavaleiro das Trevas,Filme,4,"Muito bom, gostei bastante.",False
+248,Srta. Alícia Aparecida,Pulp Fiction,Filme,1,"Péssimo, perdi meu tempo.",False
+249,Melissa Sales,Naruto,Anime,5,"Incrível, assistiria de novo.",False
+250,Sra. Giovanna Novais,O Poderoso Chefão,Filme,1,"Péssimo, perdi meu tempo.",False
+251,Davi Cavalcante,Vale Tudo,Novela,1,"Terrível, um dos piores que já vi.",False
+252,Ana Liz da Cruz,Fullmetal Alchemist: Brotherhood,Anime,4,"Muito bom, gostei bastante.",False
+253,Isaac Mendonça,Stranger Things,Série,3,"Bom, mas nada de especial.",False
+254,Heloísa Leão,Fullmetal Alchemist: Brotherhood,Anime,5,Top 10 da minha vida.,False
+255,Liam Brito,Death Note,Anime,3,Divertido para passar o tempo.,False
+256,Maria Cavalcanti,Senhora do Destino,Novela,3,Tem seus altos e baixos.,False
+257,Anthony Gabriel Vasconcelos,Senhora do Destino,Novela,5,Sensacional!,False
+258,Dra. Cecilia Melo,Death Note,Anime,2,Não gostei muito.,False
+259,Maria Vitória Oliveira,Death Note,Anime,5,"Incrível, assistiria de novo.",False
+260,Melina Oliveira,Matrix,Filme,2,Não funcionou pra mim.,False
+261,Thales Farias,Senhora do Destino,Novela,3,"É ok, mas não me marcou.",False
+262,Henrique Teixeira,Interestelar,Filme,4,"Muito bom, gostei bastante.",False
+263,Sr. Cauã Almeida,Game of Thrones,Série,1,Não recomendo de jeito nenhum.,False
+264,Melina Pacheco,Breaking Bad,Série,1,"Péssimo, perdi meu tempo.",False
+265,Sra. Yasmin Carvalho,Naruto,Anime,4,"Quase perfeito, vale muito a pena.",False
+266,Hadassa Vargas,Stranger Things,Série,1,Muito ruim.,False
+267,José Pedro Martins,Black Mirror,Série,4,Ótima história e personagens.,False
+268,Levi Fernandes,O Clone,Novela,2,Achei a premissa fraca.,False
+269,Kamilly da Rocha,O Clone,Novela,3,"Bom, mas nada de especial.",False
+270,Juan Ribeiro,Avenida Brasil,Novela,5,Recomendo para todo mundo!,False
+271,Ana Sophia Cirino,Stranger Things,Série,1,"Terrível, um dos piores que já vi.",False
+272,Luísa Ferreira,Parasita,Filme,5,Top 10 da minha vida.,False
+273,Evelyn Monteiro,Cidade de Deus,Filme,2,Achei a premissa fraca.,False
+274,Marcos Vinicius Sampaio,Demon Slayer,Anime,1,"Terrível, um dos piores que já vi.",False
+275,Clarice da Cruz,Fullmetal Alchemist: Brotherhood,Anime,5,Top 10 da minha vida.,False
+276,Dra. Hellena das Neves,O Poderoso Chefão,Filme,4,"Muito bom, gostei bastante.",False
+277,Brayan Vieira,A Viagem de Chihiro,Filme,3,Tem seus altos e baixos.,False
+278,Davi Costa,Senhora do Destino,Novela,3,Divertido para passar o tempo.,False
+279,Lunna Nascimento,A Viagem de Chihiro,Filme,5,Recomendo para todo mundo!,False
+280,Maria Helena Mendonça,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Muito ruim.,False
+281,Sr. Heitor Carvalho,Game of Thrones,Série,5,Sensacional!,False
+282,Ana Carolina da Paz,Jujutsu Kaisen,Anime,1,"Terrível, um dos piores que já vi.",False
+283,Lorena Moraes,Demon Slayer,Anime,4,"Quase perfeito, vale muito a pena.",False
+284,Bernardo Albuquerque,Senhora do Destino,Novela,1,Não recomendo de jeito nenhum.,False
+285,Yan Abreu,A Origem,Filme,2,"Esperava bem mais, foi uma decepção.",False
+286,Lucas Gabriel Vasconcelos,Naruto,Anime,2,Achei a premissa fraca.,False
+287,Carlos Eduardo Jesus,Batman: O Cavaleiro das Trevas,Filme,1,Muito ruim.,False
+288,Srta. Maria Flor Martins,O Poderoso Chefão,Filme,5,Recomendo para todo mundo!,False
+289,Dr. Heitor Monteiro,Attack on Titan,Anime,4,"Quase perfeito, vale muito a pena.",False
+290,Davi Lucca Rezende,Senhora do Destino,Novela,3,Divertido para passar o tempo.,False
+291,Rafaela Costela,O Senhor dos Anéis: O Retorno do Rei,Filme,2,"Esperava bem mais, foi uma decepção.",False
+292,Yan Duarte,Interestelar,Filme,3,"É ok, mas não me marcou.",False
+293,Isadora Freitas,Demon Slayer,Anime,4,Surpreendeu positivamente.,False
+294,Antônio Albuquerque,Parasita,Filme,5,"Incrível, assistiria de novo.",False
+295,Luna Borges,Avenida Brasil,Novela,5,Sensacional!,False
+296,Antonella Cavalcanti,Parasita,Filme,2,Achei a premissa fraca.,False
+297,Felipe Sampaio,A Viagem de Chihiro,Filme,2,Não gostei muito.,False
+298,Amanda Jesus,A Viagem de Chihiro,Filme,4,Ótima história e personagens.,False
+299,Dra. Stella Oliveira,The Office,Série,2,Achei a premissa fraca.,False
+300,Gael Henrique Rodrigues,Black Mirror,Série,1,"Terrível, um dos piores que já vi.",False
+301,Bella da Cruz,O Clone,Novela,3,Divertido para passar o tempo.,False
+302,Lucca Souza,O Clone,Novela,5,Sensacional!,False
+303,Laura Vieira,Naruto,Anime,5,Sensacional!,False
+304,Sr. Yuri Mendonça,Breaking Bad,Série,4,Ótima história e personagens.,False
+305,Stephany Machado,Jujutsu Kaisen,Anime,1,"Péssimo, perdi meu tempo.",False
+306,Vitor Gabriel Rios,Demon Slayer,Anime,1,Não recomendo de jeito nenhum.,False
+307,Dra. Heloísa da Luz,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+308,Bruno Nascimento,O Poderoso Chefão,Filme,4,Surpreendeu positivamente.,False
+309,Davi Luiz Cunha,Interestelar,Filme,2,"Esperava bem mais, foi uma decepção.",False
+310,Srta. Clarice da Costa,Parasita,Filme,5,Top 10 da minha vida.,False
+311,Srta. Helena Almeida,Death Note,Anime,3,Divertido para passar o tempo.,False
+312,Davi Miguel Aparecida,O Poderoso Chefão,Filme,2,Não funcionou pra mim.,False
+313,Mariah Carvalho,Attack on Titan,Anime,5,"Incrível, assistiria de novo.",False
+314,Laís Cunha,O Clone,Novela,5,Recomendo para todo mundo!,False
+315,Srta. Fernanda Câmara,Batman: O Cavaleiro das Trevas,Filme,5,"Incrível, assistiria de novo.",False
+316,João Vitor Araújo,Avenida Brasil,Novela,4,"Quase perfeito, vale muito a pena.",False
+317,Yasmin Fernandes,Death Note,Anime,2,Achei a premissa fraca.,False
+318,Larissa Alves,Demon Slayer,Anime,5,Sensacional!,False
+319,Carlos Eduardo Cirino,Demon Slayer,Anime,1,"Péssimo, perdi meu tempo.",False
+320,Calebe da Conceição,Interestelar,Filme,2,Achei a premissa fraca.,False
+321,Danilo Oliveira,Stranger Things,Série,4,Ótima história e personagens.,False
+322,Guilherme Nogueira,Naruto,Anime,4,"Quase perfeito, vale muito a pena.",False
+323,Vitor da Conceição,Naruto,Anime,1,Muito ruim.,False
+324,Yan Alves,Stranger Things,Série,4,Ótima história e personagens.,False
+325,Ravy Pimenta,The Office,Série,3,"Bom, mas nada de especial.",False
+326,Mariane Farias,Naruto,Anime,1,"Terrível, um dos piores que já vi.",False
+327,Isabella Pereira,Demon Slayer,Anime,4,"Muito bom, gostei bastante.",False
+328,Bruna Costa,Attack on Titan,Anime,3,"É ok, mas não me marcou.",False
+329,Esther Porto,Cidade de Deus,Filme,4,"Muito bom, gostei bastante.",False
+330,Henry Gabriel Jesus,Stranger Things,Série,1,Não recomendo de jeito nenhum.,False
+331,Ana Carolina Ferreira,The Office,Série,5,Top 10 da minha vida.,False
+332,Vitor Gabriel Ribeiro,Vale Tudo,Novela,3,"Bom, mas nada de especial.",False
+333,Pedro Gonçalves,Death Note,Anime,3,Divertido para passar o tempo.,False
+334,João Vitor Gonçalves,Batman: O Cavaleiro das Trevas,Filme,4,"Muito bom, gostei bastante.",False
+335,Carlos Eduardo da Mata,Avenida Brasil,Novela,3,"É ok, mas não me marcou.",False
+336,Hadassa Nogueira,Death Note,Anime,5,Perfeito! Uma obra-prima.,False
+337,Alana Melo,Vale Tudo,Novela,4,"Muito bom, gostei bastante.",False
+338,Laura Nascimento,O Senhor dos Anéis: O Retorno do Rei,Filme,3,"Bom, mas nada de especial.",False
+339,Sra. Ester Silva,Batman: O Cavaleiro das Trevas,Filme,4,Surpreendeu positivamente.,False
+340,Pietro Vargas,A Viagem de Chihiro,Filme,3,Divertido para passar o tempo.,False
+341,Maria Sophia Brito,Interestelar,Filme,4,Surpreendeu positivamente.,False
+342,Matteo Dias,Naruto,Anime,3,"Bom, mas nada de especial.",False
+343,Bárbara Ramos,Death Note,Anime,2,Não funcionou pra mim.,False
+344,Amanda Leão,O Clone,Novela,1,Muito ruim.,False
+345,Maya da Rocha,Black Mirror,Série,3,Divertido para passar o tempo.,False
+346,Noah Campos,Cidade de Deus,Filme,3,Divertido para passar o tempo.,False
+347,Lavínia Gomes,Dark,Série,3,Divertido para passar o tempo.,False
+348,Bruno Barros,Matrix,Filme,4,Surpreendeu positivamente.,False
+349,Laís Machado,Senhora do Destino,Novela,5,Perfeito! Uma obra-prima.,False
+350,Pedro Miguel das Neves,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+351,Lívia Barbosa,The Office,Série,4,"Quase perfeito, vale muito a pena.",False
+352,Sra. Bárbara Casa Grande,Attack on Titan,Anime,5,Perfeito! Uma obra-prima.,False
+353,Milena Oliveira,Vale Tudo,Novela,2,Não funcionou pra mim.,False
+354,Jade Sá,Game of Thrones,Série,2,Não funcionou pra mim.,False
+355,Sr. Leonardo da Costa,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Quase perfeito, vale muito a pena.",False
+356,João Guilherme Pastor,O Clone,Novela,2,Achei a premissa fraca.,False
+357,Srta. Maria Liz Sampaio,Interestelar,Filme,3,"Bom, mas nada de especial.",False
+358,Jade Araújo,O Poderoso Chefão,Filme,1,Muito ruim.,False
+359,Maria Alice Marques,Fullmetal Alchemist: Brotherhood,Anime,5,Perfeito! Uma obra-prima.,False
+360,Maria Júlia Fernandes,Dark,Série,4,"Muito bom, gostei bastante.",False
+361,João da Paz,A Origem,Filme,1,Muito ruim.,False
+362,Alexandre Nascimento,A Origem,Filme,4,"Muito bom, gostei bastante.",False
+363,Eduardo Freitas,A Origem,Filme,5,Sensacional!,False
+364,Eloá Rocha,Batman: O Cavaleiro das Trevas,Filme,3,Tem seus altos e baixos.,False
+365,Pietra Costa,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+366,Samuel Fonseca,Breaking Bad,Série,5,Top 10 da minha vida.,False
+367,Leandro Jesus,Stranger Things,Série,1,Muito ruim.,False
+368,Clara Barros,Senhora do Destino,Novela,4,"Muito bom, gostei bastante.",False
+369,Sr. Lucas Gabriel Alves,Attack on Titan,Anime,4,Surpreendeu positivamente.,False
+370,Lara Rodrigues,Naruto,Anime,5,Recomendo para todo mundo!,False
+371,Sophia Moura,O Poderoso Chefão,Filme,5,Top 10 da minha vida.,False
+372,Francisco Ribeiro,Pulp Fiction,Filme,1,Não recomendo de jeito nenhum.,False
+373,Ravi Lucca Monteiro,Dark,Série,5,Top 10 da minha vida.,False
+374,Vinícius Casa Grande,Pulp Fiction,Filme,3,Tem seus altos e baixos.,False
+375,Catarina Silva,Dark,Série,4,"Quase perfeito, vale muito a pena.",False
+376,Otto Freitas,Parasita,Filme,3,"Bom, mas nada de especial.",False
+377,Dr. Cauê Pacheco,Interestelar,Filme,4,"Muito bom, gostei bastante.",False
+378,Benicio Fogaça,Pulp Fiction,Filme,2,Não funcionou pra mim.,False
+379,Sra. Gabrielly da Rocha,A Viagem de Chihiro,Filme,5,"Incrível, assistiria de novo.",False
+380,João Vitor Costa,Parasita,Filme,1,Muito ruim.,False
+381,Heitor Montenegro,Avenida Brasil,Novela,2,Não gostei muito.,False
+382,Luara Novais,O Poderoso Chefão,Filme,5,Perfeito! Uma obra-prima.,False
+383,Sofia Teixeira,Demon Slayer,Anime,5,Sensacional!,False
+384,Ana Beatriz Almeida,Interestelar,Filme,5,"Incrível, assistiria de novo.",False
+385,Rhavi Rodrigues,The Office,Série,2,Não gostei muito.,False
+386,Sra. Isadora Novaes,Attack on Titan,Anime,3,Divertido para passar o tempo.,False
+387,Davi Lucas Lima,Dark,Série,5,Recomendo para todo mundo!,False
+388,Maria Jesus,A Origem,Filme,4,"Muito bom, gostei bastante.",False
+389,Rael Pacheco,Matrix,Filme,3,Divertido para passar o tempo.,False
+390,Anthony Sá,Game of Thrones,Série,3,Tem seus altos e baixos.,False
+391,Daniela Dias,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+392,Hellena Costa,Senhora do Destino,Novela,2,Não gostei muito.,False
+393,Sr. Leandro Montenegro,Avenida Brasil,Novela,5,Recomendo para todo mundo!,False
+394,Ana Beatriz Barros,Batman: O Cavaleiro das Trevas,Filme,5,Recomendo para todo mundo!,False
+395,Heloísa da Rocha,Matrix,Filme,3,"Bom, mas nada de especial.",False
+396,Leonardo Duarte,Stranger Things,Série,3,"É ok, mas não me marcou.",False
+397,Sra. Allana Caldeira,Fullmetal Alchemist: Brotherhood,Anime,5,Top 10 da minha vida.,False
+398,Vitor Borges,Naruto,Anime,2,"Esperava bem mais, foi uma decepção.",False
+399,João Guilherme Cunha,Demon Slayer,Anime,3,Divertido para passar o tempo.,False
+400,Carlos Eduardo Ferreira,O Clone,Novela,3,Tem seus altos e baixos.,False
+401,Amanda Pereira,Stranger Things,Série,3,"Bom, mas nada de especial.",False
+402,Rael Aragão,Jujutsu Kaisen,Anime,5,Perfeito! Uma obra-prima.,False
+403,Gustavo Henrique Correia,Batman: O Cavaleiro das Trevas,Filme,5,Sensacional!,False
+404,Benicio Siqueira,Attack on Titan,Anime,1,Muito ruim.,False
+405,Ana Beatriz Novaes,Matrix,Filme,5,"Incrível, assistiria de novo.",False
+406,Juliana Gonçalves,Game of Thrones,Série,4,"Quase perfeito, vale muito a pena.",False
+407,Gustavo Jesus,Parasita,Filme,1,Não recomendo de jeito nenhum.,False
+408,Julia Mendes,Attack on Titan,Anime,2,Não gostei muito.,False
+409,Luiz Gustavo Gomes,Black Mirror,Série,2,Não gostei muito.,False
+410,Dr. João Vitor Macedo,O Poderoso Chefão,Filme,1,Não recomendo de jeito nenhum.,False
+411,Caio Sousa,Breaking Bad,Série,3,"É ok, mas não me marcou.",False
+412,Ravy Moreira,Parasita,Filme,4,Ótima história e personagens.,False
+413,Ana Vitória Camargo,Jujutsu Kaisen,Anime,4,Ótima história e personagens.,False
+414,Dr. Luigi Monteiro,O Clone,Novela,2,Não gostei muito.,False
+415,Luigi Fogaça,Black Mirror,Série,5,Recomendo para todo mundo!,False
+416,Srta. Marina Santos,Fullmetal Alchemist: Brotherhood,Anime,4,Surpreendeu positivamente.,False
+417,Srta. Maria Flor Azevedo,Parasita,Filme,3,Divertido para passar o tempo.,False
+418,Diogo Barbosa,Dark,Série,3,Tem seus altos e baixos.,False
+419,João Lucas Castro,O Poderoso Chefão,Filme,1,Não recomendo de jeito nenhum.,False
+420,Anthony Macedo,Breaking Bad,Série,4,"Muito bom, gostei bastante.",False
+421,Marcelo Moura,Breaking Bad,Série,4,"Muito bom, gostei bastante.",False
+422,Aylla da Mata,Death Note,Anime,2,"Esperava bem mais, foi uma decepção.",False
+423,Caleb da Conceição,O Poderoso Chefão,Filme,3,Tem seus altos e baixos.,False
+424,Sra. Mariah Ferreira,O Poderoso Chefão,Filme,5,Sensacional!,False
+425,Bento da Conceição,Vale Tudo,Novela,4,Surpreendeu positivamente.,False
+426,Diego Cavalcanti,Black Mirror,Série,5,Recomendo para todo mundo!,False
+427,Ana Luiza Jesus,Death Note,Anime,3,"É ok, mas não me marcou.",False
+428,Enzo Garcia,A Origem,Filme,3,Tem seus altos e baixos.,False
+429,Renan Souza,The Office,Série,5,"Incrível, assistiria de novo.",False
+430,Laura Abreu,Avenida Brasil,Novela,2,Achei a premissa fraca.,False
+431,Ryan Ribeiro,Stranger Things,Série,3,Divertido para passar o tempo.,False
+432,Laís Silveira,Fullmetal Alchemist: Brotherhood,Anime,5,Sensacional!,False
+433,Arthur Correia,Interestelar,Filme,1,"Péssimo, perdi meu tempo.",False
+434,Nathan Nascimento,Naruto,Anime,3,"É ok, mas não me marcou.",False
+435,Dr. Luiz Gustavo Araújo,A Viagem de Chihiro,Filme,4,"Quase perfeito, vale muito a pena.",False
+436,Bruno Cirino,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Top 10 da minha vida.,False
+437,Vinícius Gomes,Cidade de Deus,Filme,4,Ótima história e personagens.,False
+438,Júlia Pastor,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+439,Alícia Duarte,Avenida Brasil,Novela,3,Tem seus altos e baixos.,False
+440,Sr. Ravi Vargas,Dark,Série,5,Recomendo para todo mundo!,False
+441,Raul Abreu,Fullmetal Alchemist: Brotherhood,Anime,1,"Terrível, um dos piores que já vi.",False
+442,Júlia Vasconcelos,Matrix,Filme,3,"É ok, mas não me marcou.",False
+443,Antony Ribeiro,A Origem,Filme,3,Divertido para passar o tempo.,False
+444,Pietra Silveira,Naruto,Anime,1,"Péssimo, perdi meu tempo.",False
+445,Pedro Lucas Silveira,Breaking Bad,Série,2,Não gostei muito.,False
+446,Alana Albuquerque,Avenida Brasil,Novela,1,Muito ruim.,False
+447,Catarina Peixoto,A Origem,Filme,3,"Bom, mas nada de especial.",False
+448,Julia Barros,Senhora do Destino,Novela,5,"Incrível, assistiria de novo.",False
+449,Antony Cavalcante,Batman: O Cavaleiro das Trevas,Filme,3,"É ok, mas não me marcou.",False
+450,Alice Camargo,Attack on Titan,Anime,2,Não funcionou pra mim.,False
+451,Ana Sophia Sales,Attack on Titan,Anime,2,"Esperava bem mais, foi uma decepção.",False
+452,Ravi Macedo,Demon Slayer,Anime,4,Surpreendeu positivamente.,False
+453,Dr. Apollo Viana,Fullmetal Alchemist: Brotherhood,Anime,2,Não gostei muito.,False
+454,Maria Isis Pires,O Poderoso Chefão,Filme,3,"Bom, mas nada de especial.",False
+455,Thiago Pastor,Death Note,Anime,5,"Incrível, assistiria de novo.",False
+456,Juan Teixeira,Avenida Brasil,Novela,5,Recomendo para todo mundo!,False
+457,Ryan Rios,Naruto,Anime,2,Achei a premissa fraca.,False
+458,Anthony Gabriel Costa,Jujutsu Kaisen,Anime,4,Surpreendeu positivamente.,False
+459,Dante da Cruz,Senhora do Destino,Novela,4,Surpreendeu positivamente.,False
+460,Laura Costa,Interestelar,Filme,4,Surpreendeu positivamente.,False
+461,Olívia Cavalcante,O Poderoso Chefão,Filme,1,"Terrível, um dos piores que já vi.",False
+462,Srta. Letícia da Rosa,Senhora do Destino,Novela,1,"Terrível, um dos piores que já vi.",False
+463,Diogo Santos,Matrix,Filme,5,Top 10 da minha vida.,False
+464,Mirella Silva,Dark,Série,2,Achei a premissa fraca.,False
+465,Larissa Cunha,Pulp Fiction,Filme,3,Divertido para passar o tempo.,False
+466,Ágatha Lima,Cidade de Deus,Filme,2,"Esperava bem mais, foi uma decepção.",False
+467,Amanda Nogueira,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+468,Sara Dias,Pulp Fiction,Filme,4,Surpreendeu positivamente.,False
+469,Sr. Théo Costa,Avenida Brasil,Novela,4,"Muito bom, gostei bastante.",False
+470,Sarah Fernandes,O Clone,Novela,3,"Bom, mas nada de especial.",False
+471,Luiz Felipe Santos,Pulp Fiction,Filme,1,"Péssimo, perdi meu tempo.",False
+472,Vitor Gabriel Freitas,Breaking Bad,Série,2,Achei a premissa fraca.,False
+473,Milena Vieira,Breaking Bad,Série,2,Achei a premissa fraca.,False
+474,Juan Cunha,Parasita,Filme,4,"Quase perfeito, vale muito a pena.",False
+475,Henry da Luz,Cidade de Deus,Filme,4,Surpreendeu positivamente.,False
+476,Cauã Abreu,Demon Slayer,Anime,4,"Quase perfeito, vale muito a pena.",False
+477,Antônio Teixeira,Cidade de Deus,Filme,5,Recomendo para todo mundo!,False
+478,Pedro Miguel Cunha,Avenida Brasil,Novela,4,Ótima história e personagens.,False
+479,Dra. Bianca da Mata,Death Note,Anime,1,Não recomendo de jeito nenhum.,False
+480,Cecilia Siqueira,Fullmetal Alchemist: Brotherhood,Anime,5,Sensacional!,False
+481,Srta. Ana Beatriz Guerra,Breaking Bad,Série,2,Não gostei muito.,False
+482,Vinicius Azevedo,Parasita,Filme,4,"Muito bom, gostei bastante.",False
+483,Sr. Eduardo Câmara,The Office,Série,5,Recomendo para todo mundo!,False
+484,Mateus Borges,Batman: O Cavaleiro das Trevas,Filme,1,"Terrível, um dos piores que já vi.",False
+485,Antony Pimenta,O Clone,Novela,2,Não funcionou pra mim.,False
+486,Emanuelly Almeida,Demon Slayer,Anime,5,Top 10 da minha vida.,False
+487,Pedro Henrique Fonseca,Pulp Fiction,Filme,2,Achei a premissa fraca.,False
+488,Sr. João Lucas da Rosa,Dark,Série,1,"Péssimo, perdi meu tempo.",False
+489,Lara Rios,A Origem,Filme,3,Tem seus altos e baixos.,False
+490,Sr. Caleb Ramos,Black Mirror,Série,2,Achei a premissa fraca.,False
+491,Isaque Rodrigues,A Viagem de Chihiro,Filme,3,"Bom, mas nada de especial.",False
+492,Sr. Pedro Miguel Pinto,Senhora do Destino,Novela,2,"Esperava bem mais, foi uma decepção.",False
+493,Paulo Vargas,A Viagem de Chihiro,Filme,1,Muito ruim.,False
+494,Mateus Cirino,Avenida Brasil,Novela,5,Top 10 da minha vida.,False
+495,Otto Cirino,Death Note,Anime,4,Surpreendeu positivamente.,False
+496,Ísis Azevedo,A Origem,Filme,4,"Quase perfeito, vale muito a pena.",False
+497,Ana Luiza Novaes,Stranger Things,Série,3,Tem seus altos e baixos.,False
+498,Benício Pires,Black Mirror,Série,2,Não funcionou pra mim.,False
+499,Dra. Olívia da Mota,Batman: O Cavaleiro das Trevas,Filme,4,Surpreendeu positivamente.,False
+500,Maria Laura Moraes,Dark,Série,3,Divertido para passar o tempo.,False
+501,Sr. Gabriel Siqueira,Jujutsu Kaisen,Anime,3,Tem seus altos e baixos.,False
+502,Arthur Miguel Cardoso,Jujutsu Kaisen,Anime,1,Muito ruim.,False
+503,Sofia Fernandes,Stranger Things,Série,1,"Péssimo, perdi meu tempo.",False
+504,Ana Carolina Duarte,Black Mirror,Série,5,Top 10 da minha vida.,False
+505,Sra. Isabel Campos,Batman: O Cavaleiro das Trevas,Filme,3,Divertido para passar o tempo.,False
+506,Ian Souza,Game of Thrones,Série,5,Sensacional!,False
+507,Valentim Sousa,O Senhor dos Anéis: O Retorno do Rei,Filme,2,Não funcionou pra mim.,False
+508,Ana Clara Oliveira,Attack on Titan,Anime,2,Não gostei muito.,False
+509,Ana Clara Cavalcante,Game of Thrones,Série,1,"Péssimo, perdi meu tempo.",False
+510,Marcelo Lopes,Breaking Bad,Série,4,Surpreendeu positivamente.,False
+511,Dra. Cecília Farias,Game of Thrones,Série,1,"Péssimo, perdi meu tempo.",False
+512,Luna Costela,A Viagem de Chihiro,Filme,4,Surpreendeu positivamente.,False
+513,Milena Siqueira,Vale Tudo,Novela,3,Tem seus altos e baixos.,False
+514,Leonardo Sampaio,Pulp Fiction,Filme,2,"Esperava bem mais, foi uma decepção.",False
+515,Kevin Freitas,Interestelar,Filme,2,"Esperava bem mais, foi uma decepção.",False
+516,Yago Araújo,Parasita,Filme,3,Tem seus altos e baixos.,False
+517,Dr. Breno Rezende,A Origem,Filme,1,"Péssimo, perdi meu tempo.",False
+518,Esther da Conceição,Pulp Fiction,Filme,4,Ótima história e personagens.,False
+519,Ravi Lucca Nunes,Parasita,Filme,2,"Esperava bem mais, foi uma decepção.",False
+520,José Pedro Casa Grande,Death Note,Anime,4,"Quase perfeito, vale muito a pena.",False
+521,Maitê Ramos,Senhora do Destino,Novela,5,Recomendo para todo mundo!,False
+522,Arthur Gabriel Silva,Matrix,Filme,5,Recomendo para todo mundo!,False
+523,Caio Lima,Demon Slayer,Anime,5,Sensacional!,False
+524,Dr. Bernardo Teixeira,Interestelar,Filme,5,"Incrível, assistiria de novo.",False
+525,Olívia Gomes,Interestelar,Filme,1,Não recomendo de jeito nenhum.,False
+526,Ana Julia Brito,The Office,Série,2,Achei a premissa fraca.,False
+527,Isabella Sampaio,O Poderoso Chefão,Filme,4,Ótima história e personagens.,False
+528,Sra. Raquel Nogueira,Stranger Things,Série,2,Não gostei muito.,False
+529,Alícia Ramos,Breaking Bad,Série,5,Sensacional!,False
+530,Ana Júlia Costa,O Senhor dos Anéis: O Retorno do Rei,Filme,3,Tem seus altos e baixos.,False
+531,Arthur Leão,Game of Thrones,Série,3,"É ok, mas não me marcou.",False
+532,Kevin Albuquerque,A Origem,Filme,5,Recomendo para todo mundo!,False
+533,Henrique Fonseca,Game of Thrones,Série,2,Achei a premissa fraca.,False
+534,Dr. Pedro Miguel Abreu,Attack on Titan,Anime,2,Não gostei muito.,False
+535,Marcos Vinicius Casa Grande,Game of Thrones,Série,5,Perfeito! Uma obra-prima.,False
+536,Luigi Oliveira,Naruto,Anime,3,Tem seus altos e baixos.,False
+537,Ana Beatriz Siqueira,Death Note,Anime,3,Divertido para passar o tempo.,False
+538,Pietra Almeida,The Office,Série,3,Tem seus altos e baixos.,False
+539,Sra. Nicole Sousa,Demon Slayer,Anime,3,"Bom, mas nada de especial.",False
+540,Sr. Yago Costela,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Muito bom, gostei bastante.",False
+541,Liz Silva,Parasita,Filme,3,"É ok, mas não me marcou.",False
+542,Bryan da Mata,Death Note,Anime,1,Muito ruim.,False
+543,Srta. Antonella Siqueira,A Viagem de Chihiro,Filme,2,Não funcionou pra mim.,False
+544,Gabriel Rodrigues,Attack on Titan,Anime,4,"Muito bom, gostei bastante.",False
+545,Murilo Pacheco,The Office,Série,1,Muito ruim.,False
+546,Mathias Pimenta,The Office,Série,1,"Terrível, um dos piores que já vi.",False
+547,Gael Vasconcelos,Breaking Bad,Série,2,"Esperava bem mais, foi uma decepção.",False
+548,Daniela Nogueira,O Clone,Novela,5,"Incrível, assistiria de novo.",False
+549,Ayla Fogaça,Naruto,Anime,4,"Muito bom, gostei bastante.",False
+550,Miguel Sampaio,Interestelar,Filme,1,"Péssimo, perdi meu tempo.",False
+551,Jade Freitas,Death Note,Anime,3,Divertido para passar o tempo.,False
+552,Davi Luiz Costa,Dark,Série,5,Recomendo para todo mundo!,False
+553,Sra. Alícia Martins,Black Mirror,Série,1,Não recomendo de jeito nenhum.,False
+554,Eduarda Cavalcanti,Demon Slayer,Anime,4,Ótima história e personagens.,False
+555,Maria Júlia da Mota,Avenida Brasil,Novela,3,"É ok, mas não me marcou.",False
+556,Asafe Garcia,Matrix,Filme,5,Recomendo para todo mundo!,False
+557,Sr. Renan Siqueira,Fullmetal Alchemist: Brotherhood,Anime,4,Surpreendeu positivamente.,False
+558,Dra. Ana Laura da Mata,A Origem,Filme,3,"Bom, mas nada de especial.",False
+559,Enrico da Mota,Attack on Titan,Anime,4,Ótima história e personagens.,False
+560,Liam Gomes,Fullmetal Alchemist: Brotherhood,Anime,1,Muito ruim.,False
+561,Arthur Miguel Melo,Naruto,Anime,2,Não gostei muito.,False
+562,Clara Ramos,Fullmetal Alchemist: Brotherhood,Anime,2,"Esperava bem mais, foi uma decepção.",False
+563,João Lucas da Costa,The Office,Série,1,"Terrível, um dos piores que já vi.",False
+564,Leandro Campos,Vale Tudo,Novela,3,"É ok, mas não me marcou.",False
+565,Ryan Fogaça,Demon Slayer,Anime,1,"Terrível, um dos piores que já vi.",False
+566,Henrique Pimenta,Attack on Titan,Anime,5,Sensacional!,False
+567,Igor Monteiro,The Office,Série,3,"É ok, mas não me marcou.",False
+568,Emanuel Aparecida,A Origem,Filme,2,"Esperava bem mais, foi uma decepção.",False
+569,Sra. Luiza da Cruz,Matrix,Filme,1,Muito ruim.,False
+570,Alexia Moreira,Interestelar,Filme,1,Muito ruim.,False
+571,Ana Laura Peixoto,Black Mirror,Série,4,"Quase perfeito, vale muito a pena.",False
+572,Srta. Gabrielly da Rosa,Naruto,Anime,4,"Quase perfeito, vale muito a pena.",False
+573,Levi da Luz,Breaking Bad,Série,2,"Esperava bem mais, foi uma decepção.",False
+574,Valentim da Costa,A Origem,Filme,4,Surpreendeu positivamente.,False
+575,Davi Luiz Peixoto,Vale Tudo,Novela,5,Sensacional!,False
+576,Srta. Hadassa da Cunha,Demon Slayer,Anime,3,"Bom, mas nada de especial.",False
+577,Larissa Aragão,Jujutsu Kaisen,Anime,2,Não gostei muito.,False
+578,Bárbara Cirino,Cidade de Deus,Filme,4,Ótima história e personagens.,False
+579,Maria Clara Vargas,A Viagem de Chihiro,Filme,5,Perfeito! Uma obra-prima.,False
+580,Lucca Silveira,Stranger Things,Série,3,"É ok, mas não me marcou.",False
+581,Carolina Câmara,Stranger Things,Série,4,Surpreendeu positivamente.,False
+582,Benjamin Casa Grande,Parasita,Filme,5,Sensacional!,False
+583,Valentina Andrade,Death Note,Anime,2,Não gostei muito.,False
+584,Renan Souza,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Muito ruim.,False
+585,Marina Pires,A Viagem de Chihiro,Filme,3,Tem seus altos e baixos.,False
+586,Mariane Nogueira,O Clone,Novela,2,"Esperava bem mais, foi uma decepção.",False
+587,Rafaela Guerra,A Origem,Filme,1,Não recomendo de jeito nenhum.,False
+588,Bella Câmara,Naruto,Anime,4,"Quase perfeito, vale muito a pena.",False
+589,Fernanda Jesus,Dark,Série,3,Divertido para passar o tempo.,False
+590,Sra. Maria Helena Vasconcelos,Black Mirror,Série,1,"Terrível, um dos piores que já vi.",False
+591,Sra. Gabriela Silva,The Office,Série,1,"Péssimo, perdi meu tempo.",False
+592,Dra. Lunna Costa,Cidade de Deus,Filme,1,Muito ruim.,False
+593,Maria Luiza Ramos,Breaking Bad,Série,5,Recomendo para todo mundo!,False
+594,Maria Luiza Dias,Cidade de Deus,Filme,3,"Bom, mas nada de especial.",False
+595,Letícia da Cruz,Cidade de Deus,Filme,2,Não gostei muito.,False
+596,Sra. Nicole Peixoto,Parasita,Filme,5,Sensacional!,False
+597,Dr. João Miguel Silveira,O Poderoso Chefão,Filme,1,Não recomendo de jeito nenhum.,False
+598,Ana Sophia Borges,Game of Thrones,Série,2,Não gostei muito.,False
+599,Guilherme Almeida,Cidade de Deus,Filme,4,"Quase perfeito, vale muito a pena.",False
+600,Lunna Marques,Breaking Bad,Série,2,Não gostei muito.,False
+601,Fernanda Guerra,A Origem,Filme,2,Não gostei muito.,False
+602,Liam Ramos,O Clone,Novela,1,Não recomendo de jeito nenhum.,False
+603,Rodrigo Fernandes,O Senhor dos Anéis: O Retorno do Rei,Filme,4,Ótima história e personagens.,False
+604,Lorena Câmara,Demon Slayer,Anime,3,Divertido para passar o tempo.,False
+605,Letícia Lopes,Stranger Things,Série,1,Não recomendo de jeito nenhum.,False
+606,Dr. João Melo,Demon Slayer,Anime,5,Perfeito! Uma obra-prima.,False
+607,Stella Cavalcanti,Dark,Série,1,Muito ruim.,False
+608,Valentim Cardoso,Black Mirror,Série,4,"Muito bom, gostei bastante.",False
+609,Fernanda Carvalho,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+610,Heloísa Ribeiro,Cidade de Deus,Filme,4,Surpreendeu positivamente.,False
+611,Dr. Otto Nunes,Fullmetal Alchemist: Brotherhood,Anime,1,"Terrível, um dos piores que já vi.",False
+612,Thomas Sampaio,Pulp Fiction,Filme,3,Tem seus altos e baixos.,False
+613,Laís Pimenta,Pulp Fiction,Filme,2,Não funcionou pra mim.,False
+614,Sra. Alícia Santos,Black Mirror,Série,5,Sensacional!,False
+615,Isabela Teixeira,Jujutsu Kaisen,Anime,5,"Incrível, assistiria de novo.",False
+616,Luiza Leão,Fullmetal Alchemist: Brotherhood,Anime,3,Tem seus altos e baixos.,False
+617,Ana Beatriz Pacheco,A Origem,Filme,1,Não recomendo de jeito nenhum.,False
+618,Sr. Diogo da Cruz,Parasita,Filme,1,"Péssimo, perdi meu tempo.",False
+619,Srta. Letícia Castro,Avenida Brasil,Novela,5,"Incrível, assistiria de novo.",False
+620,Emanuelly das Neves,Demon Slayer,Anime,2,Achei a premissa fraca.,False
+621,Arthur Miguel Cirino,Dark,Série,3,Divertido para passar o tempo.,False
+622,Sra. Ester Pereira,Avenida Brasil,Novela,3,Tem seus altos e baixos.,False
+623,Bella Pinto,Senhora do Destino,Novela,2,"Esperava bem mais, foi uma decepção.",False
+624,Thomas Aparecida,Interestelar,Filme,1,"Terrível, um dos piores que já vi.",False
+625,Dra. Daniela Souza,Matrix,Filme,1,"Terrível, um dos piores que já vi.",False
+626,Sr. Benicio Barros,Senhora do Destino,Novela,2,Não gostei muito.,False
+627,Bryan Garcia,Breaking Bad,Série,1,"Terrível, um dos piores que já vi.",False
+628,Maria Cecília Monteiro,Breaking Bad,Série,5,Recomendo para todo mundo!,False
+629,Sr. João Miguel Cassiano,A Origem,Filme,1,Não recomendo de jeito nenhum.,False
+630,Valentim Vasconcelos,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Quase perfeito, vale muito a pena.",False
+631,Ana Luiza Andrade,Matrix,Filme,2,Achei a premissa fraca.,False
+632,Sra. Hellena Costela,O Clone,Novela,1,Muito ruim.,False
+633,Sr. Pedro Costela,Jujutsu Kaisen,Anime,5,Perfeito! Uma obra-prima.,False
+634,Sarah Pastor,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+635,Benjamim Cassiano,Game of Thrones,Série,1,"Péssimo, perdi meu tempo.",False
+636,Lucas Gomes,Fullmetal Alchemist: Brotherhood,Anime,5,Sensacional!,False
+637,André da Rocha,Fullmetal Alchemist: Brotherhood,Anime,2,Achei a premissa fraca.,False
+638,Marcelo da Mata,The Office,Série,4,Ótima história e personagens.,False
+639,Sabrina Fogaça,Death Note,Anime,3,Tem seus altos e baixos.,False
+640,Manuella Almeida,A Viagem de Chihiro,Filme,3,"É ok, mas não me marcou.",False
+641,Raul Carvalho,O Clone,Novela,1,Não recomendo de jeito nenhum.,False
+642,Bruno das Neves,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+643,Ana Beatriz Duarte,Cidade de Deus,Filme,2,Achei a premissa fraca.,False
+644,Srta. Carolina Rezende,Matrix,Filme,4,"Muito bom, gostei bastante.",False
+645,Maitê Farias,Attack on Titan,Anime,5,Sensacional!,False
+646,Arthur Miguel da Cunha,Matrix,Filme,4,"Muito bom, gostei bastante.",False
+647,José Pedro Pinto,Vale Tudo,Novela,1,Não recomendo de jeito nenhum.,False
+648,Dr. Yago Caldeira,The Office,Série,3,"É ok, mas não me marcou.",False
+649,Luiz Henrique Silveira,Dark,Série,5,Recomendo para todo mundo!,False
+650,Mirella da Cruz,Black Mirror,Série,3,"Bom, mas nada de especial.",False
+651,Srta. Clarice Pires,Attack on Titan,Anime,4,"Quase perfeito, vale muito a pena.",False
+652,Sra. Luana Silveira,Cidade de Deus,Filme,2,Não funcionou pra mim.,False
+653,Enzo Gabriel Siqueira,Game of Thrones,Série,4,"Quase perfeito, vale muito a pena.",False
+654,Dra. Isabel Souza,Interestelar,Filme,5,Recomendo para todo mundo!,False
+655,Gustavo Ribeiro,Demon Slayer,Anime,3,Tem seus altos e baixos.,False
+656,Maysa Aparecida,Game of Thrones,Série,3,"É ok, mas não me marcou.",False
+657,Laís Casa Grande,Matrix,Filme,3,"Bom, mas nada de especial.",False
+658,Dr. Yago Souza,Demon Slayer,Anime,2,Não gostei muito.,False
+659,Benjamim Macedo,Death Note,Anime,1,"Péssimo, perdi meu tempo.",False
+660,Benicio Costela,Pulp Fiction,Filme,4,Ótima história e personagens.,False
+661,Sr. Théo Macedo,Demon Slayer,Anime,2,Não funcionou pra mim.,False
+662,Letícia Rezende,A Origem,Filme,5,"Incrível, assistiria de novo.",False
+663,Benjamim Aragão,Batman: O Cavaleiro das Trevas,Filme,5,Recomendo para todo mundo!,False
+664,Mirella Moreira,O Clone,Novela,3,"Bom, mas nada de especial.",False
+665,Ana Cecília Fernandes,A Origem,Filme,4,"Quase perfeito, vale muito a pena.",False
+666,Francisco Camargo,Breaking Bad,Série,4,"Quase perfeito, vale muito a pena.",False
+667,Marina Rezende,O Poderoso Chefão,Filme,3,Tem seus altos e baixos.,False
+668,Theodoro Macedo,Dark,Série,1,"Péssimo, perdi meu tempo.",False
+669,Laís Silva,Dark,Série,4,Surpreendeu positivamente.,False
+670,Raul Nascimento,Attack on Titan,Anime,1,Não recomendo de jeito nenhum.,False
+671,Calebe Ramos,The Office,Série,4,"Muito bom, gostei bastante.",False
+672,Lavínia Brito,Senhora do Destino,Novela,2,Não gostei muito.,False
+673,Felipe Novais,Cidade de Deus,Filme,4,"Muito bom, gostei bastante.",False
+674,Ayla Barbosa,Dark,Série,5,Perfeito! Uma obra-prima.,False
+675,Manuela Martins,Death Note,Anime,1,"Péssimo, perdi meu tempo.",False
+676,Benjamin Souza,Dark,Série,2,Não gostei muito.,False
+677,Sarah Guerra,Naruto,Anime,5,Recomendo para todo mundo!,False
+678,Kevin Silva,Fullmetal Alchemist: Brotherhood,Anime,3,Tem seus altos e baixos.,False
+679,Agatha Moraes,Avenida Brasil,Novela,1,"Péssimo, perdi meu tempo.",False
+680,Lucas Gabriel Dias,O Poderoso Chefão,Filme,3,"É ok, mas não me marcou.",False
+681,Isaac das Neves,Fullmetal Alchemist: Brotherhood,Anime,3,Divertido para passar o tempo.,False
+682,Luara Aparecida,Interestelar,Filme,4,Ótima história e personagens.,False
+683,Eloá Andrade,A Origem,Filme,5,"Incrível, assistiria de novo.",False
+684,Sr. Nicolas Silva,Pulp Fiction,Filme,1,Não recomendo de jeito nenhum.,False
+685,Pedro Henrique Leão,Death Note,Anime,4,"Quase perfeito, vale muito a pena.",False
+686,Aurora Moraes,Dark,Série,5,"Incrível, assistiria de novo.",False
+687,Liz Cardoso,Stranger Things,Série,1,"Terrível, um dos piores que já vi.",False
+688,Isabel Albuquerque,Dark,Série,4,"Muito bom, gostei bastante.",False
+689,Milena Monteiro,O Clone,Novela,2,Não funcionou pra mim.,False
+690,Kevin Cirino,Pulp Fiction,Filme,4,Surpreendeu positivamente.,False
+691,Davi Luiz Gomes,Avenida Brasil,Novela,3,Divertido para passar o tempo.,False
+692,Henrique Vieira,Breaking Bad,Série,1,"Péssimo, perdi meu tempo.",False
+693,Anthony Barbosa,Matrix,Filme,4,Surpreendeu positivamente.,False
+694,Cecília Ribeiro,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Quase perfeito, vale muito a pena.",False
+695,Matteo Farias,Matrix,Filme,3,Tem seus altos e baixos.,False
+696,Dr. Diogo Câmara,Batman: O Cavaleiro das Trevas,Filme,5,Top 10 da minha vida.,False
+697,Diego Barros,Stranger Things,Série,3,Tem seus altos e baixos.,False
+698,Arthur Gabriel Freitas,O Poderoso Chefão,Filme,5,Sensacional!,False
+699,Sarah Câmara,Vale Tudo,Novela,4,"Muito bom, gostei bastante.",False
+700,Nathan Monteiro,Attack on Titan,Anime,5,Sensacional!,False
+701,Theo Mendes,Interestelar,Filme,3,"É ok, mas não me marcou.",False
+702,Ayla Aparecida,Cidade de Deus,Filme,5,Top 10 da minha vida.,False
+703,Stephany Freitas,A Origem,Filme,2,Não funcionou pra mim.,False
+704,Henry Gabriel Mendonça,Batman: O Cavaleiro das Trevas,Filme,2,Não gostei muito.,False
+705,Asafe da Paz,O Senhor dos Anéis: O Retorno do Rei,Filme,1,"Terrível, um dos piores que já vi.",False
+706,Benício Silveira,Jujutsu Kaisen,Anime,3,"Bom, mas nada de especial.",False
+707,Dr. Nicolas da Rocha,Parasita,Filme,5,"Incrível, assistiria de novo.",False
+708,Fernanda Monteiro,Vale Tudo,Novela,4,Ótima história e personagens.,False
+709,Raul Montenegro,Avenida Brasil,Novela,2,Não funcionou pra mim.,False
+710,Srta. Manuella Moraes,Vale Tudo,Novela,4,"Quase perfeito, vale muito a pena.",False
+711,Dra. Maria Eduarda da Rosa,Interestelar,Filme,5,Recomendo para todo mundo!,False
+712,Sra. Maria Júlia Pires,Senhora do Destino,Novela,1,"Terrível, um dos piores que já vi.",False
+713,Nicolas Melo,Matrix,Filme,3,"Bom, mas nada de especial.",False
+714,Carlos Eduardo Aparecida,Death Note,Anime,2,"Esperava bem mais, foi uma decepção.",False
+715,Daniela Souza,O Senhor dos Anéis: O Retorno do Rei,Filme,4,"Muito bom, gostei bastante.",False
+716,Maria Clara Pinto,Naruto,Anime,1,Não recomendo de jeito nenhum.,False
+717,Mariane Albuquerque,Interestelar,Filme,2,Não gostei muito.,False
+718,Emanuelly Machado,Black Mirror,Série,4,"Quase perfeito, vale muito a pena.",False
+719,Maya Melo,Black Mirror,Série,3,Divertido para passar o tempo.,False
+720,Caleb Araújo,Black Mirror,Série,2,Não gostei muito.,False
+721,Davi Fogaça,Batman: O Cavaleiro das Trevas,Filme,2,Não gostei muito.,False
+722,João Guilherme Porto,Cidade de Deus,Filme,2,Não funcionou pra mim.,False
+723,Giovanna Andrade,Vale Tudo,Novela,1,"Péssimo, perdi meu tempo.",False
+724,Camila Souza,Avenida Brasil,Novela,3,"Bom, mas nada de especial.",False
+725,Srta. Maysa Souza,Black Mirror,Série,1,"Terrível, um dos piores que já vi.",False
+726,Jade Garcia,A Viagem de Chihiro,Filme,3,"Bom, mas nada de especial.",False
+727,Zoe Moura,Stranger Things,Série,2,Não funcionou pra mim.,False
+728,Natália Novaes,Fullmetal Alchemist: Brotherhood,Anime,4,Surpreendeu positivamente.,False
+729,Rebeca Freitas,A Viagem de Chihiro,Filme,5,Perfeito! Uma obra-prima.,False
+730,Alice Lopes,Parasita,Filme,3,Divertido para passar o tempo.,False
+731,Renan Dias,Matrix,Filme,4,"Muito bom, gostei bastante.",False
+732,Carlos Eduardo Barros,O Senhor dos Anéis: O Retorno do Rei,Filme,2,Achei a premissa fraca.,False
+733,Davi Lucas Oliveira,O Clone,Novela,1,Muito ruim.,False
+734,Sr. Cauê Machado,Game of Thrones,Série,5,Recomendo para todo mundo!,False
+735,Dra. Kamilly Melo,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Muito ruim.,False
+736,Arthur Miguel Cardoso,Fullmetal Alchemist: Brotherhood,Anime,2,"Esperava bem mais, foi uma decepção.",False
+737,Alexia Guerra,Dark,Série,1,"Péssimo, perdi meu tempo.",False
+738,Diego Campos,Jujutsu Kaisen,Anime,3,"Bom, mas nada de especial.",False
+739,Kevin Farias,A Origem,Filme,1,Muito ruim.,False
+740,Augusto Silva,Cidade de Deus,Filme,1,"Péssimo, perdi meu tempo.",False
+741,Caleb da Conceição,Batman: O Cavaleiro das Trevas,Filme,2,Não gostei muito.,False
+742,Evelyn Camargo,Black Mirror,Série,3,Divertido para passar o tempo.,False
+743,Arthur Gabriel Fonseca,O Clone,Novela,3,Divertido para passar o tempo.,False
+744,Natália Fernandes,Avenida Brasil,Novela,5,Perfeito! Uma obra-prima.,False
+745,Aylla Almeida,O Senhor dos Anéis: O Retorno do Rei,Filme,4,Ótima história e personagens.,False
+746,Theo Ramos,A Viagem de Chihiro,Filme,1,"Péssimo, perdi meu tempo.",False
+747,Natália Araújo,Fullmetal Alchemist: Brotherhood,Anime,2,Não gostei muito.,False
+748,Maria Liz Moraes,Attack on Titan,Anime,2,Não gostei muito.,False
+749,Alícia Mendonça,Jujutsu Kaisen,Anime,4,"Quase perfeito, vale muito a pena.",False
+750,Vitória Cavalcante,Senhora do Destino,Novela,3,Divertido para passar o tempo.,False
+751,Maria Luiza Costa,Parasita,Filme,3,Divertido para passar o tempo.,False
+752,Brayan Pinto,A Viagem de Chihiro,Filme,2,Não gostei muito.,False
+753,Vitor Hugo Brito,A Viagem de Chihiro,Filme,4,"Quase perfeito, vale muito a pena.",False
+754,Dr. Bruno Guerra,O Poderoso Chefão,Filme,3,"É ok, mas não me marcou.",False
+755,Srta. Esther Silva,Vale Tudo,Novela,2,Achei a premissa fraca.,False
+756,Caroline Almeida,A Origem,Filme,5,"Incrível, assistiria de novo.",False
+757,Igor Sousa,A Origem,Filme,5,"Incrível, assistiria de novo.",False
+758,Bruno Pastor,Batman: O Cavaleiro das Trevas,Filme,4,Surpreendeu positivamente.,False
+759,Otávio Cassiano,A Viagem de Chihiro,Filme,3,Divertido para passar o tempo.,False
+760,Dra. Ana Lívia Fogaça,Dark,Série,2,Achei a premissa fraca.,False
+761,Sra. Fernanda Almeida,O Poderoso Chefão,Filme,1,"Péssimo, perdi meu tempo.",False
+762,Benício Teixeira,Stranger Things,Série,3,Tem seus altos e baixos.,False
+763,Anthony Marques,Fullmetal Alchemist: Brotherhood,Anime,4,"Muito bom, gostei bastante.",False
+764,Stephany Pinto,Naruto,Anime,1,"Péssimo, perdi meu tempo.",False
+765,Juan Pastor,Game of Thrones,Série,2,Não funcionou pra mim.,False
+766,Sophia Cardoso,Avenida Brasil,Novela,4,Surpreendeu positivamente.,False
+767,Dr. Diego Garcia,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+768,Maria Julia Brito,Dark,Série,2,Achei a premissa fraca.,False
+769,Juan Nunes,Demon Slayer,Anime,2,"Esperava bem mais, foi uma decepção.",False
+770,Gabrielly Gomes,Stranger Things,Série,4,Surpreendeu positivamente.,False
+771,Antony Silva,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Sensacional!,False
+772,Clara Abreu,Batman: O Cavaleiro das Trevas,Filme,4,Ótima história e personagens.,False
+773,Ana Mendes,Fullmetal Alchemist: Brotherhood,Anime,1,Muito ruim.,False
+774,Sr. Ravi Ferreira,Cidade de Deus,Filme,1,Muito ruim.,False
+775,Dante Fonseca,Batman: O Cavaleiro das Trevas,Filme,1,"Terrível, um dos piores que já vi.",False
+776,Fernanda Nogueira,Senhora do Destino,Novela,2,"Esperava bem mais, foi uma decepção.",False
+777,Maria Ferreira,Attack on Titan,Anime,1,"Péssimo, perdi meu tempo.",False
+778,Isabella Rios,Avenida Brasil,Novela,1,"Terrível, um dos piores que já vi.",False
+779,Stella Santos,A Origem,Filme,2,"Esperava bem mais, foi uma decepção.",False
+780,Yuri Azevedo,Dark,Série,3,"Bom, mas nada de especial.",False
+781,Ravi Lucca Pastor,The Office,Série,5,Sensacional!,False
+782,Beatriz Marques,Batman: O Cavaleiro das Trevas,Filme,5,Top 10 da minha vida.,False
+783,Srta. Allana Araújo,Fullmetal Alchemist: Brotherhood,Anime,2,Não gostei muito.,False
+784,Sra. Laís Rodrigues,Stranger Things,Série,4,Ótima história e personagens.,False
+785,Asafe Cunha,Dark,Série,4,Surpreendeu positivamente.,False
+786,Arthur Gabriel Vargas,Senhora do Destino,Novela,5,Perfeito! Uma obra-prima.,False
+787,Lívia Souza,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Recomendo para todo mundo!,False
+788,André Machado,O Clone,Novela,1,"Terrível, um dos piores que já vi.",False
+789,Cauã Porto,Vale Tudo,Novela,1,"Péssimo, perdi meu tempo.",False
+790,Matheus Jesus,Demon Slayer,Anime,4,"Quase perfeito, vale muito a pena.",False
+791,Hellena Nascimento,Demon Slayer,Anime,1,"Péssimo, perdi meu tempo.",False
+792,Luana Correia,Pulp Fiction,Filme,5,Recomendo para todo mundo!,False
+793,Nicole da Cruz,The Office,Série,2,Achei a premissa fraca.,False
+794,Maya Teixeira,Senhora do Destino,Novela,5,Recomendo para todo mundo!,False
+795,Anthony Gabriel Marques,Senhora do Destino,Novela,4,Surpreendeu positivamente.,False
+796,Pietra Cardoso,Senhora do Destino,Novela,5,Perfeito! Uma obra-prima.,False
+797,Guilherme Moreira,Matrix,Filme,4,"Quase perfeito, vale muito a pena.",False
+798,Isabella Leão,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Perfeito! Uma obra-prima.,False
+799,Sabrina Sousa,Parasita,Filme,2,Não gostei muito.,False
+800,Isabella Sousa,A Viagem de Chihiro,Filme,2,Achei a premissa fraca.,False
+801,Diogo da Mota,A Origem,Filme,5,Top 10 da minha vida.,False
+802,Agatha Novaes,Breaking Bad,Série,2,Não gostei muito.,False
+803,Brenda Garcia,Senhora do Destino,Novela,2,Achei a premissa fraca.,False
+804,Sra. Beatriz Machado,Cidade de Deus,Filme,1,Não recomendo de jeito nenhum.,False
+805,Sra. Mirella Castro,Game of Thrones,Série,2,Não gostei muito.,False
+806,Ravy Pimenta,Cidade de Deus,Filme,3,Tem seus altos e baixos.,False
+807,Sr. Mateus da Mota,Cidade de Deus,Filme,2,"Esperava bem mais, foi uma decepção.",False
+808,Giovanna Albuquerque,Batman: O Cavaleiro das Trevas,Filme,2,Achei a premissa fraca.,False
+809,Ana Sophia Abreu,Avenida Brasil,Novela,1,"Péssimo, perdi meu tempo.",False
+810,Arthur Miguel Cavalcanti,The Office,Série,2,Achei a premissa fraca.,False
+811,Bárbara Cassiano,Death Note,Anime,2,Achei a premissa fraca.,False
+812,Ana Júlia da Cruz,A Viagem de Chihiro,Filme,1,"Terrível, um dos piores que já vi.",False
+813,Antonella da Costa,Batman: O Cavaleiro das Trevas,Filme,1,Muito ruim.,False
+814,Heloisa Jesus,Batman: O Cavaleiro das Trevas,Filme,4,Ótima história e personagens.,False
+815,Maria Eduarda Camargo,Dark,Série,4,"Muito bom, gostei bastante.",False
+816,Amanda Albuquerque,O Senhor dos Anéis: O Retorno do Rei,Filme,4,Ótima história e personagens.,False
+817,Antony Abreu,Death Note,Anime,1,Muito ruim.,False
+818,Fernanda Gomes,O Clone,Novela,3,"É ok, mas não me marcou.",False
+819,Ana Liz Cardoso,Senhora do Destino,Novela,4,"Quase perfeito, vale muito a pena.",False
+820,Maria Vitória Lopes,Fullmetal Alchemist: Brotherhood,Anime,5,"Incrível, assistiria de novo.",False
+821,Otávio Moura,O Clone,Novela,5,Recomendo para todo mundo!,False
+822,Valentina da Cunha,A Viagem de Chihiro,Filme,3,"É ok, mas não me marcou.",False
+823,Ravi Lucca Pereira,Attack on Titan,Anime,3,"É ok, mas não me marcou.",False
+824,Kamilly Cavalcanti,O Poderoso Chefão,Filme,1,Muito ruim.,False
+825,Sra. Ana Beatriz da Conceição,Attack on Titan,Anime,1,"Terrível, um dos piores que já vi.",False
+826,Hadassa Pimenta,Death Note,Anime,3,"Bom, mas nada de especial.",False
+827,Rodrigo Rocha,O Clone,Novela,2,"Esperava bem mais, foi uma decepção.",False
+828,Luiz Felipe Correia,Black Mirror,Série,4,"Quase perfeito, vale muito a pena.",False
+829,João Pedro Martins,Senhora do Destino,Novela,3,"Bom, mas nada de especial.",False
+830,Srta. Allana Porto,Breaking Bad,Série,3,Divertido para passar o tempo.,False
+831,Dra. Julia Lima,O Clone,Novela,5,Recomendo para todo mundo!,False
+832,Henry Gabriel Porto,Matrix,Filme,4,Ótima história e personagens.,False
+833,Lorena Siqueira,A Origem,Filme,2,Não gostei muito.,False
+834,Valentim Sales,Matrix,Filme,3,Divertido para passar o tempo.,False
+835,Dra. Nina Teixeira,Matrix,Filme,1,"Terrível, um dos piores que já vi.",False
+836,Maria Alice Alves,Death Note,Anime,3,Divertido para passar o tempo.,False
+837,Rafaela Nogueira,Pulp Fiction,Filme,3,Tem seus altos e baixos.,False
+838,Matheus Mendonça,O Poderoso Chefão,Filme,4,"Muito bom, gostei bastante.",False
+839,Mariana Leão,Black Mirror,Série,5,Sensacional!,False
+840,Srta. Stephany Alves,The Office,Série,3,Tem seus altos e baixos.,False
+841,Julia Pinto,Batman: O Cavaleiro das Trevas,Filme,3,"Bom, mas nada de especial.",False
+842,Diego Porto,Matrix,Filme,5,Perfeito! Uma obra-prima.,False
+843,Pedro Henrique Siqueira,Demon Slayer,Anime,2,Não funcionou pra mim.,False
+844,Maria Alice Sá,O Clone,Novela,2,Não gostei muito.,False
+845,Pedro Lucas Pires,Interestelar,Filme,1,Não recomendo de jeito nenhum.,False
+846,Nina Melo,Dark,Série,3,"Bom, mas nada de especial.",False
+847,Rafaela Fernandes,Parasita,Filme,5,Sensacional!,False
+848,Dom Azevedo,Dark,Série,1,"Péssimo, perdi meu tempo.",False
+849,Luana Albuquerque,Jujutsu Kaisen,Anime,2,Não funcionou pra mim.,False
+850,Sra. Hadassa Cunha,Game of Thrones,Série,2,Não funcionou pra mim.,False
+851,Benjamin Guerra,Black Mirror,Série,2,Achei a premissa fraca.,False
+852,Stella da Conceição,O Senhor dos Anéis: O Retorno do Rei,Filme,2,Achei a premissa fraca.,False
+853,Fernanda Vasconcelos,Vale Tudo,Novela,5,Top 10 da minha vida.,False
+854,Davi Miguel Teixeira,Interestelar,Filme,4,"Muito bom, gostei bastante.",False
+855,Sra. Nina da Paz,Avenida Brasil,Novela,4,Surpreendeu positivamente.,False
+856,Ana Luiza Barros,Batman: O Cavaleiro das Trevas,Filme,4,Ótima história e personagens.,False
+857,Theodoro Lopes,Batman: O Cavaleiro das Trevas,Filme,5,Recomendo para todo mundo!,False
+858,Maria Helena Ribeiro,Dark,Série,2,Não funcionou pra mim.,False
+859,Bryan Araújo,Pulp Fiction,Filme,4,"Muito bom, gostei bastante.",False
+860,Rafael Cunha,Pulp Fiction,Filme,2,"Esperava bem mais, foi uma decepção.",False
+861,Hellena Pereira,Matrix,Filme,3,"Bom, mas nada de especial.",False
+862,Theodoro Cardoso,Death Note,Anime,5,"Incrível, assistiria de novo.",False
+863,Liam Pastor,Death Note,Anime,2,Não gostei muito.,False
+864,Rafaela Caldeira,Avenida Brasil,Novela,4,Ótima história e personagens.,False
+865,Otto Borges,Senhora do Destino,Novela,5,"Incrível, assistiria de novo.",False
+866,Dr. João Vitor Abreu,Fullmetal Alchemist: Brotherhood,Anime,1,Não recomendo de jeito nenhum.,False
+867,Ana Sophia Freitas,O Poderoso Chefão,Filme,5,Perfeito! Uma obra-prima.,False
+868,Maria Luísa Brito,Pulp Fiction,Filme,4,Ótima história e personagens.,False
+869,Vitor Hugo Pimenta,O Senhor dos Anéis: O Retorno do Rei,Filme,5,Perfeito! Uma obra-prima.,False
+870,Evelyn Costa,O Poderoso Chefão,Filme,4,"Muito bom, gostei bastante.",False
+871,Ravy Albuquerque,Senhora do Destino,Novela,5,Sensacional!,False
+872,Yan Borges,Parasita,Filme,4,Ótima história e personagens.,False
+873,Nicolas Pimenta,Attack on Titan,Anime,5,Recomendo para todo mundo!,False
+874,Sra. Clara Ribeiro,Naruto,Anime,4,"Muito bom, gostei bastante.",False
+875,Sr. Brayan Pacheco,Parasita,Filme,4,Ótima história e personagens.,False
+876,Luiza Costela,O Senhor dos Anéis: O Retorno do Rei,Filme,1,"Terrível, um dos piores que já vi.",False
+877,Nicole Farias,Vale Tudo,Novela,2,Achei a premissa fraca.,False
+878,Elisa Casa Grande,O Poderoso Chefão,Filme,1,"Péssimo, perdi meu tempo.",False
+879,Sra. Gabrielly Silva,Attack on Titan,Anime,4,"Muito bom, gostei bastante.",False
+880,Eduarda da Paz,Death Note,Anime,3,"É ok, mas não me marcou.",False
+881,Dra. Anna Liz Vargas,O Clone,Novela,2,Não funcionou pra mim.,False
+882,Ana Vitória Leão,Batman: O Cavaleiro das Trevas,Filme,4,Surpreendeu positivamente.,False
+883,Zoe Rodrigues,Demon Slayer,Anime,5,Perfeito! Uma obra-prima.,False
+884,Allana da Costa,Dark,Série,3,Tem seus altos e baixos.,False
+885,Sophia Aparecida,Naruto,Anime,3,"É ok, mas não me marcou.",False
+886,Nicolas Rodrigues,Breaking Bad,Série,5,Perfeito! Uma obra-prima.,False
+887,Diogo Pires,Vale Tudo,Novela,5,Top 10 da minha vida.,False
+888,Rael Vargas,Parasita,Filme,4,Ótima história e personagens.,False
+889,Valentina Cunha,Fullmetal Alchemist: Brotherhood,Anime,3,Divertido para passar o tempo.,False
+890,Olívia Vieira,Stranger Things,Série,4,Ótima história e personagens.,False
+891,Maria Cecília Caldeira,Vale Tudo,Novela,3,"Bom, mas nada de especial.",False
+892,Srta. Maria Cecília Fonseca,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+893,Mathias Alves,Parasita,Filme,1,Não recomendo de jeito nenhum.,False
+894,Léo Camargo,A Origem,Filme,5,Sensacional!,False
+895,Bella Sales,Fullmetal Alchemist: Brotherhood,Anime,4,"Quase perfeito, vale muito a pena.",False
+896,Emanuella Vieira,Jujutsu Kaisen,Anime,1,"Péssimo, perdi meu tempo.",False
+897,Srta. Maria Clara Machado,Dark,Série,1,Não recomendo de jeito nenhum.,False
+898,Leandro Rezende,Game of Thrones,Série,4,"Muito bom, gostei bastante.",False
+899,Isis Siqueira,Avenida Brasil,Novela,4,"Quase perfeito, vale muito a pena.",False
+900,Thiago da Mata,Demon Slayer,Anime,4,"Quase perfeito, vale muito a pena.",False
+901,Melissa Ferreira,Interestelar,Filme,5,"Incrível, assistiria de novo.",False
+902,Ana Vitória Cunha,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+903,Eloá Machado,A Origem,Filme,1,Muito ruim.,False
+904,Luiz Henrique Jesus,Parasita,Filme,5,Top 10 da minha vida.,False
+905,Daniel Alves,Cidade de Deus,Filme,1,"Péssimo, perdi meu tempo.",False
+906,Pedro Miguel Aragão,Stranger Things,Série,3,Divertido para passar o tempo.,False
+907,Esther Dias,Demon Slayer,Anime,1,Não recomendo de jeito nenhum.,False
+908,Olivia Gomes,Dark,Série,4,"Quase perfeito, vale muito a pena.",False
+909,Pedro Lucas Alves,Dark,Série,2,Não gostei muito.,False
+910,Maria Júlia Vasconcelos,Dark,Série,1,"Péssimo, perdi meu tempo.",False
+911,Brayan da Mota,A Origem,Filme,1,"Péssimo, perdi meu tempo.",False
+912,João Gabriel Costela,Batman: O Cavaleiro das Trevas,Filme,2,Não funcionou pra mim.,False
+913,João Lucas Araújo,O Senhor dos Anéis: O Retorno do Rei,Filme,2,Achei a premissa fraca.,False
+914,Thomas Aragão,Stranger Things,Série,2,"Esperava bem mais, foi uma decepção.",False
+915,Dr. Francisco Vieira,Fullmetal Alchemist: Brotherhood,Anime,1,Não recomendo de jeito nenhum.,False
+916,Emanuel Cunha,Cidade de Deus,Filme,2,Não funcionou pra mim.,False
+917,Isabella Santos,O Clone,Novela,3,"Bom, mas nada de especial.",False
+918,Ísis Novais,O Clone,Novela,1,Muito ruim.,False
+919,Bernardo Albuquerque,A Viagem de Chihiro,Filme,3,Divertido para passar o tempo.,False
+920,Sr. Yago Rezende,Senhora do Destino,Novela,3,"Bom, mas nada de especial.",False
+921,Carlos Eduardo Nunes,Senhora do Destino,Novela,3,"Bom, mas nada de especial.",False
+922,Maria Júlia da Rosa,Dark,Série,3,Divertido para passar o tempo.,False
+923,Maria Fernanda Casa Grande,Vale Tudo,Novela,4,"Muito bom, gostei bastante.",False
+924,Benjamin Cardoso,Interestelar,Filme,3,"É ok, mas não me marcou.",False
+925,Eduarda Monteiro,Black Mirror,Série,1,"Terrível, um dos piores que já vi.",False
+926,Augusto Souza,Batman: O Cavaleiro das Trevas,Filme,1,Muito ruim.,False
+927,Dra. Isabella Duarte,Vale Tudo,Novela,1,"Terrível, um dos piores que já vi.",False
+928,Maria Liz Borges,Breaking Bad,Série,2,Achei a premissa fraca.,False
+929,Alexandre da Luz,Stranger Things,Série,1,Não recomendo de jeito nenhum.,False
+930,Miguel Pinto,Matrix,Filme,1,Não recomendo de jeito nenhum.,False
+931,Sra. Heloisa Albuquerque,Fullmetal Alchemist: Brotherhood,Anime,2,Não funcionou pra mim.,False
+932,Isaac da Cruz,O Clone,Novela,5,Perfeito! Uma obra-prima.,False
+933,Calebe Fogaça,Death Note,Anime,4,"Muito bom, gostei bastante.",False
+934,Lorena Cassiano,Interestelar,Filme,4,Surpreendeu positivamente.,False
+935,Sra. Julia Borges,Avenida Brasil,Novela,5,Perfeito! Uma obra-prima.,False
+936,Cecilia Casa Grande,Fullmetal Alchemist: Brotherhood,Anime,1,"Terrível, um dos piores que já vi.",False
+937,Raul da Rocha,Interestelar,Filme,4,"Muito bom, gostei bastante.",False
+938,Yuri Lopes,Breaking Bad,Série,4,Surpreendeu positivamente.,False
+939,Caio Lopes,Fullmetal Alchemist: Brotherhood,Anime,5,Perfeito! Uma obra-prima.,False
+940,Maria Alice Aparecida,Jujutsu Kaisen,Anime,5,Sensacional!,False
+941,Sarah Casa Grande,Breaking Bad,Série,1,"Terrível, um dos piores que já vi.",False
+942,Aylla Azevedo,A Origem,Filme,5,Recomendo para todo mundo!,False
+943,Otávio Sales,Batman: O Cavaleiro das Trevas,Filme,3,Tem seus altos e baixos.,False
+944,Amanda Campos,Pulp Fiction,Filme,5,Sensacional!,False
+945,José Pedro Farias,Death Note,Anime,2,Achei a premissa fraca.,False
+946,Luna Macedo,Vale Tudo,Novela,2,Achei a premissa fraca.,False
+947,Ana Cecília Costela,Stranger Things,Série,3,Divertido para passar o tempo.,False
+948,Davi Lucas Fernandes,A Viagem de Chihiro,Filme,4,"Muito bom, gostei bastante.",False
+949,Gustavo Gomes,The Office,Série,4,Surpreendeu positivamente.,False
+950,Fernanda da Cunha,O Poderoso Chefão,Filme,2,Não gostei muito.,False
+951,Vinicius Macedo,Stranger Things,Série,2,Não gostei muito.,False
+952,Luiza Correia,Jujutsu Kaisen,Anime,3,Tem seus altos e baixos.,False
+953,Dr. Gustavo Rocha,Stranger Things,Série,5,"Incrível, assistiria de novo.",False
+954,Manuella da Conceição,Interestelar,Filme,5,Recomendo para todo mundo!,False
+955,João Pedro Fernandes,O Clone,Novela,3,"Bom, mas nada de especial.",False
+956,Melina Correia,Jujutsu Kaisen,Anime,2,Achei a premissa fraca.,False
+957,Sr. Nicolas Casa Grande,O Clone,Novela,3,"É ok, mas não me marcou.",False
+958,Sr. Luiz Otávio Moraes,O Senhor dos Anéis: O Retorno do Rei,Filme,2,"Esperava bem mais, foi uma decepção.",False
+959,Gabriel Mendes,The Office,Série,1,Não recomendo de jeito nenhum.,False
+960,Rhavi Moura,Game of Thrones,Série,5,Recomendo para todo mundo!,False
+961,Yasmin Dias,Attack on Titan,Anime,3,"É ok, mas não me marcou.",False
+962,Srta. Maria Eduarda da Cunha,Vale Tudo,Novela,1,Não recomendo de jeito nenhum.,False
+963,Eloá da Luz,Black Mirror,Série,5,Top 10 da minha vida.,False
+964,Antônio Ferreira,Batman: O Cavaleiro das Trevas,Filme,2,"Esperava bem mais, foi uma decepção.",False
+965,Isabela da Paz,Dark,Série,3,Tem seus altos e baixos.,False
+966,Isaac Cavalcante,Stranger Things,Série,4,"Muito bom, gostei bastante.",False
+967,Benjamin Porto,Dark,Série,1,Não recomendo de jeito nenhum.,False
+968,Caleb Porto,Game of Thrones,Série,2,Achei a premissa fraca.,False
+969,Davi Lucas Costa,Interestelar,Filme,2,"Esperava bem mais, foi uma decepção.",False
+970,Leonardo Santos,O Clone,Novela,3,Divertido para passar o tempo.,False
+971,Joana Farias,Jujutsu Kaisen,Anime,4,Ótima história e personagens.,False
+972,Sr. Pedro da Costa,Breaking Bad,Série,5,Sensacional!,False
+973,Beatriz Pimenta,Avenida Brasil,Novela,3,Tem seus altos e baixos.,False
+974,Joana Cunha,Fullmetal Alchemist: Brotherhood,Anime,3,Tem seus altos e baixos.,False
+975,Rhavi Ramos,O Clone,Novela,5,"Incrível, assistiria de novo.",False
+976,Maria Vitória Freitas,Vale Tudo,Novela,3,"É ok, mas não me marcou.",False
+977,Maria Vitória Montenegro,Fullmetal Alchemist: Brotherhood,Anime,5,Perfeito! Uma obra-prima.,False
+978,Leandro Castro,Breaking Bad,Série,2,Achei a premissa fraca.,False
+979,Dr. Benjamin Caldeira,Vale Tudo,Novela,4,"Muito bom, gostei bastante.",False
+980,Srta. Maria Liz Alves,Vale Tudo,Novela,1,"Péssimo, perdi meu tempo.",False
+981,Sr. Rhavi Pacheco,Black Mirror,Série,1,"Péssimo, perdi meu tempo.",False
+982,Murilo Sales,Demon Slayer,Anime,3,"Bom, mas nada de especial.",False
+983,Maria Júlia Fonseca,Attack on Titan,Anime,1,Não recomendo de jeito nenhum.,False
+984,Maria Sophia Sampaio,A Origem,Filme,4,"Muito bom, gostei bastante.",False
+985,Yan Sales,Cidade de Deus,Filme,5,Sensacional!,False
+986,Luana Carvalho,A Viagem de Chihiro,Filme,1,"Péssimo, perdi meu tempo.",False
+987,Dr. Otávio Fonseca,Senhora do Destino,Novela,1,"Péssimo, perdi meu tempo.",False
+988,Sra. Marina Albuquerque,Avenida Brasil,Novela,2,Não funcionou pra mim.,False
+989,Eduardo da Mota,O Senhor dos Anéis: O Retorno do Rei,Filme,1,Não recomendo de jeito nenhum.,False
+990,Luísa da Cruz,Vale Tudo,Novela,4,Ótima história e personagens.,False
+991,Sr. Asafe Machado,Attack on Titan,Anime,5,"Incrível, assistiria de novo.",False
+992,Rafael da Rocha,A Viagem de Chihiro,Filme,2,"Esperava bem mais, foi uma decepção.",False
+993,Dr. Theo Azevedo,O Senhor dos Anéis: O Retorno do Rei,Filme,2,"Esperava bem mais, foi uma decepção.",False
+994,Sabrina Barbosa,Naruto,Anime,4,Ótima história e personagens.,False
+995,Henrique Machado,Black Mirror,Série,1,Muito ruim.,False
+996,Gustavo Henrique Mendonça,Dark,Série,4,Ótima história e personagens.,False
+997,Sr. Luigi Sales,Death Note,Anime,3,Divertido para passar o tempo.,False
+998,Esther da Mata,Game of Thrones,Série,1,Não recomendo de jeito nenhum.,False
+999,Théo Leão,Batman: O Cavaleiro das Trevas,Filme,3,"É ok, mas não me marcou.",False
+1000,Nathan Araújo,Cidade de Deus,Filme,1,Não recomendo de jeito nenhum.,False
