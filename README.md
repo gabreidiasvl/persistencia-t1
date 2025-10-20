@@ -25,7 +25,6 @@ cd caminho/para/a/pasta/do/projeto
 É altamente recomendado criar um ambiente virtual para isolar as dependências do projeto.
 
 ```bash
-# Comando para criar o ambiente virtual
 python -m venv .venv
 ```
 

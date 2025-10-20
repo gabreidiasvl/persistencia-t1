@@ -118,9 +118,7 @@ def export_avaliacoes_zip():
 @app.post("/utilitarios/hash", summary="Gerar hash de um dado", tags=["6. Utilitários"])
 def generate_hash(data: str = Query(..., description="O dado a ser processado"), 
                   algorithm: str = Query("sha256", enum=["md5", "sha1", "sha256"])):
-    """
-    Gera o hash de uma string de dados usando o algoritmo especificado.
-    """
+
     hasher = hashlib.new(algorithm)
     hasher.update(data.encode('utf-8'))
     return {"original_data": data, "algorithm": algorithm, "hashed_value": hasher.hexdigest()}
