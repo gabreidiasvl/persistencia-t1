@@ -20,9 +20,6 @@ app = FastAPI(
 db = MiniDB('avaliacao')
 @app.get("/", include_in_schema=False)
 async def root():
-    """
-    Redireciona a rota raiz ("/") para a página de documentação ("/docs").
-    """
     return RedirectResponse(url="/docs")
 @app.get("/docs", response_class=HTMLResponse, include_in_schema=False)
 async def custom_swagger_ui_html():
